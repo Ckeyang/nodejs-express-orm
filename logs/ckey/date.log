@@ -1,0 +1,5471 @@
+[2016-04-17 11:30:51.752] [INFO] console - ckey server is running 80
+[2016-04-17 11:31:03.118] [INFO] console - hallo  world
+[2016-04-17 11:31:35.978] [INFO] console - hallo  world
+[2016-04-17 11:31:51.474] [INFO] console - hallo  world
+[2016-04-17 11:32:11.699] [INFO] console - hallo  world
+[2016-04-17 11:35:26.701] [INFO] console - ckey server is running 80
+[2016-04-17 11:56:16.384] [INFO] console - ckey server is running 80
+[2016-04-17 11:56:22.008] [ERROR] console - TypeError: db.define is not a function
+    at Object.module.exports.createUserModel (D:\myproject\spore_adminserver\models\user.js:5:19)
+    at Object.exports.login (D:\myproject\spore_adminserver\controllers\userservice.js:9:18)
+    at D:\myproject\spore_adminserver\route\routes.js:9:17
+    at Layer.handle [as handle_request] (D:\myproject\spore_adminserver\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\myproject\spore_adminserver\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (D:\myproject\spore_adminserver\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\myproject\spore_adminserver\node_modules\express\lib\router\layer.js:95:5)
+    at D:\myproject\spore_adminserver\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (D:\myproject\spore_adminserver\node_modules\express\lib\router\index.js:330:12)
+    at next (D:\myproject\spore_adminserver\node_modules\express\lib\router\index.js:271:10)
+[2016-04-17 11:57:16.797] [ERROR] console - TypeError: db.define is not a function
+    at Object.module.exports.createUserModel (D:\myproject\spore_adminserver\models\user.js:5:19)
+    at Object.exports.login (D:\myproject\spore_adminserver\controllers\userservice.js:9:18)
+    at D:\myproject\spore_adminserver\route\routes.js:9:17
+    at Layer.handle [as handle_request] (D:\myproject\spore_adminserver\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\myproject\spore_adminserver\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (D:\myproject\spore_adminserver\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\myproject\spore_adminserver\node_modules\express\lib\router\layer.js:95:5)
+    at D:\myproject\spore_adminserver\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (D:\myproject\spore_adminserver\node_modules\express\lib\router\index.js:330:12)
+    at next (D:\myproject\spore_adminserver\node_modules\express\lib\router\index.js:271:10)
+[2016-04-17 11:57:25.962] [INFO] console - ckey server is running 80
+[2016-04-17 11:57:28.409] [ERROR] console - TypeError: db.define is not a function
+    at Object.exports.login (D:\myproject\spore_adminserver\controllers\userservice.js:9:19)
+    at D:\myproject\spore_adminserver\route\routes.js:9:17
+    at Layer.handle [as handle_request] (D:\myproject\spore_adminserver\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\myproject\spore_adminserver\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (D:\myproject\spore_adminserver\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\myproject\spore_adminserver\node_modules\express\lib\router\layer.js:95:5)
+    at D:\myproject\spore_adminserver\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (D:\myproject\spore_adminserver\node_modules\express\lib\router\index.js:330:12)
+    at next (D:\myproject\spore_adminserver\node_modules\express\lib\router\index.js:271:10)
+    at Function.handle (D:\myproject\spore_adminserver\node_modules\express\lib\router\index.js:176:3)
+[2016-04-17 11:58:27.211] [INFO] console - ckey server is running 80
+[2016-04-17 11:59:44.106] [INFO] console - ckey server is running 80
+[2016-04-17 12:00:40.345] [INFO] console - ckey server is running 80
+[2016-04-17 12:01:07.890] [INFO] console - ckey server is running 80
+[2016-04-17 12:01:39.956] [INFO] console - ckey server is running 80
+[2016-04-17 12:01:43.703] [INFO] console - { [Function]
+  allProperties: 
+   { name: { type: 'text', mapsTo: 'name', name: 'name', klass: 'primary' },
+     age: 
+      { type: 'number',
+        rational: true,
+        mapsTo: 'age',
+        name: 'age',
+        klass: 'primary' },
+     id: 
+      { type: 'serial',
+        key: true,
+        required: false,
+        klass: 'primary',
+        mapsTo: 'id',
+        name: 'id' } },
+  properties: 
+   { name: { type: 'text', mapsTo: 'name', name: 'name', klass: 'primary' },
+     age: 
+      { type: 'number',
+        rational: true,
+        mapsTo: 'age',
+        name: 'age',
+        klass: 'primary' },
+     id: 
+      { type: 'serial',
+        key: true,
+        required: false,
+        klass: 'primary',
+        mapsTo: 'id',
+        name: 'id' } },
+  settings: { set: [Function], get: [Function], unset: [Function] },
+  keys: [ 'id' ],
+  drop: [Function],
+  sync: [Function],
+  get: [Function],
+  find: [Function],
+  all: [Function],
+  one: [Function],
+  count: [Function],
+  aggregate: [Function],
+  exists: [Function],
+  create: [Function],
+  clear: [Function],
+  prependValidation: [Function],
+  addProperty: [Function],
+  beforeCreate: [Function],
+  afterCreate: [Function],
+  beforeSave: [Function],
+  afterSave: [Function],
+  beforeValidation: [Function],
+  beforeRemove: [Function],
+  afterRemove: [Function],
+  afterLoad: [Function],
+  afterAutoFetch: [Function],
+  hasOne: [Function],
+  hasMany: [Function],
+  extendsTo: [Function] }
+[2016-04-17 12:02:39.260] [INFO] console - ckey server is running 80
+[2016-04-17 12:02:41.443] [INFO] console - [ { name: [Getter/Setter],
+    age: [Getter/Setter],
+    id: [Getter/Setter] },
+  { name: [Getter/Setter],
+    age: [Getter/Setter],
+    id: [Getter/Setter] } ]
+[2016-04-17 12:02:57.876] [INFO] console - [ { name: [Getter/Setter],
+    age: [Getter/Setter],
+    id: [Getter/Setter] },
+  { name: [Getter/Setter],
+    age: [Getter/Setter],
+    id: [Getter/Setter] } ]
+[2016-04-17 12:03:02.492] [INFO] console - ckey server is running 80
+[2016-04-17 12:03:36.633] [INFO] console - ckey server is running 80
+[2016-04-17 12:03:39.786] [INFO] console - ckey
+[2016-04-17 12:03:56.448] [INFO] console - ckey
+[2016-04-17 12:04:01.763] [INFO] console - ckey server is running 80
+[2016-04-17 12:06:56.543] [INFO] console - ckey server is running 80
+[2016-04-17 12:07:31.055] [INFO] console - ckey server is running 80
+[2016-04-17 12:08:34.213] [INFO] console - ckey server is running 80
+[2016-04-17 12:08:55.145] [INFO] console - ckey server is running 80
+[2016-04-17 12:08:57.358] [INFO] console - { [Function]
+  allProperties: 
+   { name: { type: 'text', mapsTo: 'name', name: 'name', klass: 'primary' },
+     age: 
+      { type: 'number',
+        rational: true,
+        mapsTo: 'age',
+        name: 'age',
+        klass: 'primary' },
+     id: 
+      { type: 'serial',
+        key: true,
+        required: false,
+        klass: 'primary',
+        mapsTo: 'id',
+        name: 'id' } },
+  properties: 
+   { name: { type: 'text', mapsTo: 'name', name: 'name', klass: 'primary' },
+     age: 
+      { type: 'number',
+        rational: true,
+        mapsTo: 'age',
+        name: 'age',
+        klass: 'primary' },
+     id: 
+      { type: 'serial',
+        key: true,
+        required: false,
+        klass: 'primary',
+        mapsTo: 'id',
+        name: 'id' } },
+  settings: { set: [Function], get: [Function], unset: [Function] },
+  keys: [ 'id' ],
+  drop: [Function],
+  sync: [Function],
+  get: [Function],
+  find: [Function],
+  all: [Function],
+  one: [Function],
+  count: [Function],
+  aggregate: [Function],
+  exists: [Function],
+  create: [Function],
+  clear: [Function],
+  prependValidation: [Function],
+  addProperty: [Function],
+  beforeCreate: [Function],
+  afterCreate: [Function],
+  beforeSave: [Function],
+  afterSave: [Function],
+  beforeValidation: [Function],
+  beforeRemove: [Function],
+  afterRemove: [Function],
+  afterLoad: [Function],
+  afterAutoFetch: [Function],
+  hasOne: [Function],
+  hasMany: [Function],
+  extendsTo: [Function] }
+[2016-04-17 12:09:42.316] [INFO] console - { [Function]
+  allProperties: 
+   { name: { type: 'text', mapsTo: 'name', name: 'name', klass: 'primary' },
+     age: 
+      { type: 'number',
+        rational: true,
+        mapsTo: 'age',
+        name: 'age',
+        klass: 'primary' },
+     id: 
+      { type: 'serial',
+        key: true,
+        required: false,
+        klass: 'primary',
+        mapsTo: 'id',
+        name: 'id' } },
+  properties: 
+   { name: { type: 'text', mapsTo: 'name', name: 'name', klass: 'primary' },
+     age: 
+      { type: 'number',
+        rational: true,
+        mapsTo: 'age',
+        name: 'age',
+        klass: 'primary' },
+     id: 
+      { type: 'serial',
+        key: true,
+        required: false,
+        klass: 'primary',
+        mapsTo: 'id',
+        name: 'id' } },
+  settings: { set: [Function], get: [Function], unset: [Function] },
+  keys: [ 'id' ],
+  drop: [Function],
+  sync: [Function],
+  get: [Function],
+  find: [Function],
+  all: [Function],
+  one: [Function],
+  count: [Function],
+  aggregate: [Function],
+  exists: [Function],
+  create: [Function],
+  clear: [Function],
+  prependValidation: [Function],
+  addProperty: [Function],
+  beforeCreate: [Function],
+  afterCreate: [Function],
+  beforeSave: [Function],
+  afterSave: [Function],
+  beforeValidation: [Function],
+  beforeRemove: [Function],
+  afterRemove: [Function],
+  afterLoad: [Function],
+  afterAutoFetch: [Function],
+  hasOne: [Function],
+  hasMany: [Function],
+  extendsTo: [Function] }
+[2016-04-17 12:09:51.060] [INFO] console - ckey server is running 80
+[2016-04-17 12:10:46.737] [INFO] console - ckey server is running 80
+[2016-04-17 12:13:03.979] [INFO] console - ckey server is running 80
+[2016-04-17 12:13:06.865] [ERROR] console - ReferenceError: resul is not defined
+    at Object.exports.login (D:\myproject\spore_adminserver\controllers\userservice.js:21:17)
+    at D:\myproject\spore_adminserver\route\routes.js:9:17
+    at Layer.handle [as handle_request] (D:\myproject\spore_adminserver\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\myproject\spore_adminserver\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (D:\myproject\spore_adminserver\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\myproject\spore_adminserver\node_modules\express\lib\router\layer.js:95:5)
+    at D:\myproject\spore_adminserver\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (D:\myproject\spore_adminserver\node_modules\express\lib\router\index.js:330:12)
+    at next (D:\myproject\spore_adminserver\node_modules\express\lib\router\index.js:271:10)
+    at Function.handle (D:\myproject\spore_adminserver\node_modules\express\lib\router\index.js:176:3)
+[2016-04-17 12:13:18.076] [INFO] console - ckey server is running 80
+[2016-04-17 12:13:20.582] [INFO] console - undefined
+[2016-04-17 12:13:57.112] [INFO] console - ckey server is running 80
+[2016-04-17 12:13:59.026] [INFO] console - undefined
+[2016-04-17 12:13:59.042] [INFO] console - [ '[object Object]': 1 ]
+[2016-04-17 12:14:10.798] [INFO] console - undefined
+[2016-04-17 12:14:10.821] [INFO] console - [ '[object Object]': 1 ]
+[2016-04-17 12:14:46.809] [INFO] console - ckey server is running 80
+[2016-04-17 12:14:49.170] [INFO] console - undefined222222222222222
+[2016-04-17 12:14:49.190] [INFO] console - 111111111111
+[2016-04-17 12:15:26.872] [INFO] console - ckey server is running 80
+[2016-04-17 12:15:29.198] [INFO] console - undefined222222222222222
+[2016-04-17 12:15:29.213] [INFO] console - 111111111111
+[2016-04-17 12:15:50.584] [INFO] console - ckey server is running 80
+[2016-04-17 12:16:44.026] [INFO] console - ckey server is running 80
+[2016-04-17 12:16:45.660] [INFO] console - { [Function]
+  allProperties: 
+   { name: { type: 'text', mapsTo: 'name', name: 'name', klass: 'primary' },
+     age: 
+      { type: 'number',
+        rational: true,
+        mapsTo: 'age',
+        name: 'age',
+        klass: 'primary' },
+     id: 
+      { type: 'serial',
+        key: true,
+        required: false,
+        klass: 'primary',
+        mapsTo: 'id',
+        name: 'id' } },
+  properties: 
+   { name: { type: 'text', mapsTo: 'name', name: 'name', klass: 'primary' },
+     age: 
+      { type: 'number',
+        rational: true,
+        mapsTo: 'age',
+        name: 'age',
+        klass: 'primary' },
+     id: 
+      { type: 'serial',
+        key: true,
+        required: false,
+        klass: 'primary',
+        mapsTo: 'id',
+        name: 'id' } },
+  settings: { set: [Function], get: [Function], unset: [Function] },
+  keys: [ 'id' ],
+  drop: [Function],
+  sync: [Function],
+  get: [Function],
+  find: [Function],
+  all: [Function],
+  one: [Function],
+  count: [Function],
+  aggregate: [Function],
+  exists: [Function],
+  create: [Function],
+  clear: [Function],
+  prependValidation: [Function],
+  addProperty: [Function],
+  beforeCreate: [Function],
+  afterCreate: [Function],
+  beforeSave: [Function],
+  afterSave: [Function],
+  beforeValidation: [Function],
+  beforeRemove: [Function],
+  afterRemove: [Function],
+  afterLoad: [Function],
+  afterAutoFetch: [Function],
+  hasOne: [Function],
+  hasMany: [Function],
+  extendsTo: [Function] }
+[2016-04-17 12:16:46.452] [INFO] console - { [Function]
+  allProperties: 
+   { name: { type: 'text', mapsTo: 'name', name: 'name', klass: 'primary' },
+     age: 
+      { type: 'number',
+        rational: true,
+        mapsTo: 'age',
+        name: 'age',
+        klass: 'primary' },
+     id: 
+      { type: 'serial',
+        key: true,
+        required: false,
+        klass: 'primary',
+        mapsTo: 'id',
+        name: 'id' } },
+  properties: 
+   { name: { type: 'text', mapsTo: 'name', name: 'name', klass: 'primary' },
+     age: 
+      { type: 'number',
+        rational: true,
+        mapsTo: 'age',
+        name: 'age',
+        klass: 'primary' },
+     id: 
+      { type: 'serial',
+        key: true,
+        required: false,
+        klass: 'primary',
+        mapsTo: 'id',
+        name: 'id' } },
+  settings: { set: [Function], get: [Function], unset: [Function] },
+  keys: [ 'id' ],
+  drop: [Function],
+  sync: [Function],
+  get: [Function],
+  find: [Function],
+  all: [Function],
+  one: [Function],
+  count: [Function],
+  aggregate: [Function],
+  exists: [Function],
+  create: [Function],
+  clear: [Function],
+  prependValidation: [Function],
+  addProperty: [Function],
+  beforeCreate: [Function],
+  afterCreate: [Function],
+  beforeSave: [Function],
+  afterSave: [Function],
+  beforeValidation: [Function],
+  beforeRemove: [Function],
+  afterRemove: [Function],
+  afterLoad: [Function],
+  afterAutoFetch: [Function],
+  hasOne: [Function],
+  hasMany: [Function],
+  extendsTo: [Function] }
+[2016-04-17 13:13:35.957] [INFO] console - ckey server is running 80
+[2016-04-17 13:13:39.650] [INFO] console - [Function]
+[2016-04-17 13:13:57.064] [INFO] console - ckey server is running 80
+[2016-04-17 13:13:59.890] [INFO] console - undefined
+[2016-04-17 13:14:25.610] [INFO] console - ckey server is running 80
+[2016-04-17 13:14:27.793] [INFO] console - { [Function]
+  allProperties: 
+   { name: { type: 'text', mapsTo: 'name', name: 'name', klass: 'primary' },
+     age: 
+      { type: 'number',
+        rational: true,
+        mapsTo: 'age',
+        name: 'age',
+        klass: 'primary' },
+     id: 
+      { type: 'serial',
+        key: true,
+        required: false,
+        klass: 'primary',
+        mapsTo: 'id',
+        name: 'id' } },
+  properties: 
+   { name: { type: 'text', mapsTo: 'name', name: 'name', klass: 'primary' },
+     age: 
+      { type: 'number',
+        rational: true,
+        mapsTo: 'age',
+        name: 'age',
+        klass: 'primary' },
+     id: 
+      { type: 'serial',
+        key: true,
+        required: false,
+        klass: 'primary',
+        mapsTo: 'id',
+        name: 'id' } },
+  settings: { set: [Function], get: [Function], unset: [Function] },
+  keys: [ 'id' ],
+  drop: [Function],
+  sync: [Function],
+  get: [Function],
+  find: [Function],
+  all: [Function],
+  one: [Function],
+  count: [Function],
+  aggregate: [Function],
+  exists: [Function],
+  create: [Function],
+  clear: [Function],
+  prependValidation: [Function],
+  addProperty: [Function],
+  beforeCreate: [Function],
+  afterCreate: [Function],
+  beforeSave: [Function],
+  afterSave: [Function],
+  beforeValidation: [Function],
+  beforeRemove: [Function],
+  afterRemove: [Function],
+  afterLoad: [Function],
+  afterAutoFetch: [Function],
+  hasOne: [Function],
+  hasMany: [Function],
+  extendsTo: [Function] }
+[2016-04-17 13:16:17.739] [INFO] console - ckey server is running 80
+[2016-04-17 13:16:40.005] [INFO] console - ckey server is running 80
+[2016-04-17 13:18:45.228] [INFO] console - ckey server is running 80
+[2016-04-17 13:20:00.650] [INFO] console - ckey server is running 80
+[2016-04-17 13:20:03.609] [ERROR] console - ReferenceError: body is not defined
+    at Object.exports.login (D:\myproject\spore_adminserver\controllers\userservice.js:21:27)
+    at D:\myproject\spore_adminserver\route\routes.js:9:17
+    at Layer.handle [as handle_request] (D:\myproject\spore_adminserver\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\myproject\spore_adminserver\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (D:\myproject\spore_adminserver\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\myproject\spore_adminserver\node_modules\express\lib\router\layer.js:95:5)
+    at D:\myproject\spore_adminserver\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (D:\myproject\spore_adminserver\node_modules\express\lib\router\index.js:330:12)
+    at next (D:\myproject\spore_adminserver\node_modules\express\lib\router\index.js:271:10)
+    at Function.handle (D:\myproject\spore_adminserver\node_modules\express\lib\router\index.js:176:3)
+[2016-04-17 13:20:18.423] [INFO] console - ckey server is running 80
+[2016-04-17 13:21:01.202] [INFO] console - ckey server is running 80
+[2016-04-17 13:22:04.366] [INFO] console - ckey server is running 80
+[2016-04-17 13:22:43.625] [INFO] console - ckey server is running 80
+[2016-04-17 13:22:46.766] [INFO] console - 
+[2016-04-17 13:23:12.209] [INFO] console - ckey server is running 80
+[2016-04-17 13:23:42.594] [INFO] console - ckey server is running 80
+[2016-04-17 13:23:45.360] [INFO] console - 
+[2016-04-17 13:23:59.210] [INFO] console - ckey server is running 80
+[2016-04-17 13:24:01.780] [INFO] console - [ '[object Object]': 1 ]
+[2016-04-17 13:24:19.521] [INFO] console - ckey server is running 80
+[2016-04-17 13:24:19.723] [ERROR] console - TypeError: first argument must be a string or Buffer
+    at ServerResponse.OutgoingMessage.write (_http_outgoing.js:447:11)
+    at Object.exports.login (D:\myproject\spore_adminserver\controllers\userservice.js:22:9)
+    at D:\myproject\spore_adminserver\route\routes.js:9:17
+    at Layer.handle [as handle_request] (D:\myproject\spore_adminserver\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\myproject\spore_adminserver\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (D:\myproject\spore_adminserver\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\myproject\spore_adminserver\node_modules\express\lib\router\layer.js:95:5)
+    at D:\myproject\spore_adminserver\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (D:\myproject\spore_adminserver\node_modules\express\lib\router\index.js:330:12)
+    at next (D:\myproject\spore_adminserver\node_modules\express\lib\router\index.js:271:10)
+[2016-04-17 13:24:41.523] [INFO] console - ckey server is running 80
+[2016-04-17 13:24:44.451] [ERROR] console - TypeError: first argument must be a string or Buffer
+    at ServerResponse.OutgoingMessage.write (_http_outgoing.js:447:11)
+    at Object.exports.login (D:\myproject\spore_adminserver\controllers\userservice.js:23:9)
+    at D:\myproject\spore_adminserver\route\routes.js:9:17
+    at Layer.handle [as handle_request] (D:\myproject\spore_adminserver\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\myproject\spore_adminserver\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (D:\myproject\spore_adminserver\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\myproject\spore_adminserver\node_modules\express\lib\router\layer.js:95:5)
+    at D:\myproject\spore_adminserver\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (D:\myproject\spore_adminserver\node_modules\express\lib\router\index.js:330:12)
+    at next (D:\myproject\spore_adminserver\node_modules\express\lib\router\index.js:271:10)
+[2016-04-17 13:24:44.474] [INFO] console - [ '[object Object]': 1 ]
+[2016-04-17 13:31:00.664] [INFO] console - ckey server is running 80
+[2016-04-17 13:31:04.102] [INFO] console - [ '[object Object]': 1 ]
+[2016-04-17 13:31:04.108] [ERROR] console - TypeError: first argument must be a string or Buffer
+    at ServerResponse.OutgoingMessage.write (_http_outgoing.js:447:11)
+    at Object.exports.login (D:\myproject\spore_adminserver\controllers\userservice.js:24:9)
+    at D:\myproject\spore_adminserver\route\routes.js:9:17
+    at Layer.handle [as handle_request] (D:\myproject\spore_adminserver\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\myproject\spore_adminserver\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (D:\myproject\spore_adminserver\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\myproject\spore_adminserver\node_modules\express\lib\router\layer.js:95:5)
+    at D:\myproject\spore_adminserver\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (D:\myproject\spore_adminserver\node_modules\express\lib\router\index.js:330:12)
+    at next (D:\myproject\spore_adminserver\node_modules\express\lib\router\index.js:271:10)
+[2016-04-17 13:31:52.842] [INFO] console - ckey server is running 80
+[2016-04-17 13:31:55.008] [INFO] console - [ '[object Object]': 1 ]
+[2016-04-17 13:32:51.691] [INFO] console - ckey server is running 80
+[2016-04-17 13:32:57.640] [INFO] console - 
+[2016-04-17 13:33:36.732] [INFO] console - ckey server is running 80
+[2016-04-17 13:33:39.491] [INFO] console - 
+[2016-04-17 13:33:50.731] [INFO] console - ckey server is running 80
+[2016-04-17 13:33:53.655] [INFO] console - 
+[2016-04-17 13:34:11.493] [INFO] console - ckey server is running 80
+[2016-04-17 13:34:14.046] [INFO] console - [ '[object Object]': 1 ]
+[2016-04-17 13:35:27.296] [INFO] console - ckey server is running 80
+[2016-04-17 13:35:29.654] [INFO] console - []
+[2016-04-17 13:36:13.013] [INFO] console - ckey server is running 80
+[2016-04-17 13:36:54.038] [INFO] console - ckey server is running 80
+[2016-04-17 13:36:56.718] [INFO] console - [object Object],[object Object]
+[2016-04-17 13:42:12.023] [INFO] console - [object Object],[object Object]
+[2016-04-17 13:44:48.179] [INFO] console - ckey server is running 80
+[2016-04-17 13:45:29.019] [INFO] console - ckey server is running 80
+[2016-04-17 13:46:30.294] [INFO] console - undefined
+[2016-04-17 13:46:30.309] [INFO] console - [object Object],[object Object]
+[2016-04-17 13:46:53.116] [INFO] console - ckey server is running 80
+[2016-04-17 13:49:16.325] [INFO] console - ckey server is running 80
+[2016-04-17 13:49:31.025] [INFO] console - yang
+[2016-04-17 13:49:31.036] [INFO] console - [object Object],[object Object]
+[2016-04-17 13:50:35.825] [INFO] console - yang
+[2016-04-17 13:50:35.827] [INFO] console - [object Object],[object Object]
+[2016-04-17 13:53:01.260] [INFO] console - ckey server is running 80
+[2016-04-17 13:53:32.481] [INFO] console - ckey server is running 80
+[2016-04-17 13:53:34.944] [INFO] console - undefined
+[2016-04-17 13:53:34.959] [INFO] console - [object Object],[object Object]
+[2016-04-17 13:54:55.003] [INFO] console - ckey server is running 80
+[2016-04-17 13:54:57.454] [INFO] console - undefined
+[2016-04-17 13:54:57.489] [INFO] console - [object Object],[object Object]
+[2016-04-17 13:55:41.565] [INFO] console - ckey server is running 80
+[2016-04-17 13:55:44.174] [INFO] console - undefined
+[2016-04-17 13:55:44.197] [INFO] console - [object Object],[object Object]
+[2016-04-17 13:55:59.522] [INFO] console - ckey server is running 80
+[2016-04-17 13:56:01.853] [INFO] console - undefined
+[2016-04-17 13:56:01.866] [INFO] console - [object Object],[object Object]
+[2016-04-17 13:56:47.352] [INFO] console - undefined
+[2016-04-17 13:56:47.357] [INFO] console - [object Object],[object Object]
+[2016-04-17 13:57:19.318] [INFO] console - undefined
+[2016-04-17 13:57:19.326] [INFO] console - [object Object],[object Object]
+[2016-04-17 13:59:27.115] [INFO] console - ckey server is running 80
+[2016-04-17 13:59:48.096] [INFO] console - ckey server is running 80
+[2016-04-17 13:59:53.682] [INFO] console - 111 yang
+[2016-04-17 13:59:53.683] [INFO] console - yang
+[2016-04-17 13:59:53.694] [INFO] console - [object Object],[object Object]
+[2016-04-17 14:00:13.774] [INFO] console - ckey server is running 80
+[2016-04-17 14:00:16.798] [INFO] console - 111 yang
+[2016-04-17 14:00:16.812] [INFO] console - [object Object],[object Object]
+[2016-04-17 14:01:45.657] [INFO] console - ckey server is running 80
+[2016-04-17 14:01:48.509] [INFO] console - 111 yang
+[2016-04-17 14:01:48.517] [ERROR] console - Error: `value` required in setHeader("Content-Type : application/x-www-form-urlencoded; charset=UTF-8", value).
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:342:11)
+    at Object.exports.onLogin (D:\myproject\spore_adminserver\controllers\userservice.js:16:9)
+    at D:\myproject\spore_adminserver\route\routes.js:12:17
+    at Layer.handle [as handle_request] (D:\myproject\spore_adminserver\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\myproject\spore_adminserver\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (D:\myproject\spore_adminserver\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\myproject\spore_adminserver\node_modules\express\lib\router\layer.js:95:5)
+    at D:\myproject\spore_adminserver\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (D:\myproject\spore_adminserver\node_modules\express\lib\router\index.js:330:12)
+    at next (D:\myproject\spore_adminserver\node_modules\express\lib\router\index.js:271:10)
+[2016-04-17 14:02:21.214] [INFO] console - ckey server is running 80
+[2016-04-17 14:02:23.696] [INFO] console - 111 yang
+[2016-04-17 14:02:23.709] [INFO] console - [object Object],[object Object]
+[2016-04-17 14:02:37.368] [INFO] console - 111 yang
+[2016-04-17 14:02:37.375] [INFO] console - [object Object],[object Object]
+[2016-04-17 14:06:46.143] [INFO] console - ckey server is running 80
+[2016-04-17 14:06:50.324] [INFO] console - undefined
+[2016-04-17 14:06:50.331] [ERROR] console - TypeError: res.setEncoding is not a function
+    at Object.exports.onLogin (D:\myproject\spore_adminserver\controllers\userservice.js:17:9)
+    at D:\myproject\spore_adminserver\route\routes.js:12:17
+    at Layer.handle [as handle_request] (D:\myproject\spore_adminserver\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\myproject\spore_adminserver\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (D:\myproject\spore_adminserver\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\myproject\spore_adminserver\node_modules\express\lib\router\layer.js:95:5)
+    at D:\myproject\spore_adminserver\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (D:\myproject\spore_adminserver\node_modules\express\lib\router\index.js:330:12)
+    at next (D:\myproject\spore_adminserver\node_modules\express\lib\router\index.js:271:10)
+    at Function.handle (D:\myproject\spore_adminserver\node_modules\express\lib\router\index.js:176:3)
+[2016-04-17 14:07:02.165] [INFO] console - undefined
+[2016-04-17 14:07:02.169] [ERROR] console - TypeError: res.setEncoding is not a function
+    at Object.exports.onLogin (D:\myproject\spore_adminserver\controllers\userservice.js:17:9)
+    at D:\myproject\spore_adminserver\route\routes.js:12:17
+    at Layer.handle [as handle_request] (D:\myproject\spore_adminserver\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\myproject\spore_adminserver\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (D:\myproject\spore_adminserver\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\myproject\spore_adminserver\node_modules\express\lib\router\layer.js:95:5)
+    at D:\myproject\spore_adminserver\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (D:\myproject\spore_adminserver\node_modules\express\lib\router\index.js:330:12)
+    at next (D:\myproject\spore_adminserver\node_modules\express\lib\router\index.js:271:10)
+    at Function.handle (D:\myproject\spore_adminserver\node_modules\express\lib\router\index.js:176:3)
+[2016-04-17 14:07:12.515] [INFO] console - ckey server is running 80
+[2016-04-17 14:07:18.857] [INFO] console - undefined
+[2016-04-17 14:07:18.869] [INFO] console - [object Object],[object Object]
+[2016-04-17 14:11:38.368] [INFO] console - ckey server is running 80
+[2016-04-17 14:11:51.750] [INFO] console - [object Object],[object Object]
+[2016-04-17 14:14:41.240] [INFO] console - ckey server is running 80
+[2016-04-17 14:14:44.704] [INFO] console - [object Object],[object Object]
+[2016-04-17 14:15:58.762] [INFO] console - ckey server is running 80
+[2016-04-17 14:16:07.511] [INFO] console - [object Object],[object Object]
+[2016-04-17 14:17:30.613] [INFO] console - ckey server is running 80
+[2016-04-17 14:17:45.154] [INFO] console - [object Object],[object Object]
+[2016-04-17 14:18:31.429] [INFO] console - ckey server is running 80
+[2016-04-17 14:18:34.438] [INFO] console - [object Object],[object Object]
+[2016-04-17 14:18:34.444] [INFO] console - ServerResponse {
+  domain: null,
+  _events: { finish: [Function: resOnFinish] },
+  _eventsCount: 1,
+  _maxListeners: undefined,
+  output: [],
+  outputEncodings: [],
+  outputCallbacks: [],
+  outputSize: 0,
+  writable: true,
+  _last: false,
+  chunkedEncoding: false,
+  shouldKeepAlive: true,
+  useChunkedEncodingByDefault: true,
+  sendDate: true,
+  _removedHeader: { 'content-length': false },
+  _contentLength: 75,
+  _hasBody: true,
+  _trailer: '',
+  finished: true,
+  _headerSent: true,
+  socket: 
+   Socket {
+     _connecting: false,
+     _hadError: false,
+     _handle: 
+      TCP {
+        _externalStream: {},
+        fd: -1,
+        reading: true,
+        owner: [Circular],
+        onread: [Function: onread],
+        onconnection: null,
+        writeQueueSize: 0 },
+     _parent: null,
+     _host: null,
+     _readableState: 
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        defaultEncoding: 'utf8',
+        ranOut: false,
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: null,
+        encoding: null,
+        resumeScheduled: false },
+     readable: true,
+     domain: null,
+     _events: 
+      { end: [Object],
+        finish: [Function: onSocketFinish],
+        _socketEnd: [Function: onSocketEnd],
+        drain: [Object],
+        timeout: [Function],
+        error: [Function: socketOnError],
+        close: [Object],
+        data: [Function: socketOnData],
+        resume: [Function: onSocketResume],
+        pause: [Function: onSocketPause] },
+     _eventsCount: 10,
+     _maxListeners: undefined,
+     _writableState: 
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: false,
+        bufferProcessing: false,
+        onwrite: [Function],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 3,
+        prefinished: false,
+        errorEmitted: false },
+     writable: true,
+     allowHalfOpen: true,
+     destroyed: false,
+     bytesRead: 0,
+     _bytesDispatched: 275,
+     _sockname: null,
+     _pendingData: null,
+     _pendingEncoding: '',
+     server: 
+      Server {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 5,
+        _maxListeners: undefined,
+        _connections: 1,
+        _handle: [Object],
+        _usingSlaves: false,
+        _slaves: [],
+        _unref: false,
+        allowHalfOpen: true,
+        pauseOnConnect: false,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        _pendingResponseData: 0,
+        _connectionKey: '4:127.0.0.1:80' },
+     _idleTimeout: 120000,
+     _idleNext: 
+      { [Function: utcDate]
+        _onTimeout: [Function],
+        _idleTimeout: 558,
+        _idleNext: [Object],
+        _idlePrev: [Circular],
+        _idleStart: 3474 },
+     _idlePrev: { _idleNext: [Circular], _idlePrev: [Object] },
+     _idleStart: 3475,
+     parser: 
+      HTTPParser {
+        '0': [Function: parserOnHeaders],
+        '1': [Function: parserOnHeadersComplete],
+        '2': [Function: parserOnBody],
+        '3': [Function: parserOnMessageComplete],
+        '4': [Function: onParserExecute],
+        _headers: [],
+        _url: '',
+        _consumed: true,
+        socket: [Circular],
+        incoming: [Object],
+        maxHeaderPairs: 2000,
+        onIncoming: [Function: parserOnIncoming] },
+     on: [Function: socketOnWrap],
+     _paused: false,
+     read: [Function],
+     _consuming: true,
+     _httpMessage: [Circular] },
+  connection: 
+   Socket {
+     _connecting: false,
+     _hadError: false,
+     _handle: 
+      TCP {
+        _externalStream: {},
+        fd: -1,
+        reading: true,
+        owner: [Circular],
+        onread: [Function: onread],
+        onconnection: null,
+        writeQueueSize: 0 },
+     _parent: null,
+     _host: null,
+     _readableState: 
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        defaultEncoding: 'utf8',
+        ranOut: false,
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: null,
+        encoding: null,
+        resumeScheduled: false },
+     readable: true,
+     domain: null,
+     _events: 
+      { end: [Object],
+        finish: [Function: onSocketFinish],
+        _socketEnd: [Function: onSocketEnd],
+        drain: [Object],
+        timeout: [Function],
+        error: [Function: socketOnError],
+        close: [Object],
+        data: [Function: socketOnData],
+        resume: [Function: onSocketResume],
+        pause: [Function: onSocketPause] },
+     _eventsCount: 10,
+     _maxListeners: undefined,
+     _writableState: 
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: false,
+        bufferProcessing: false,
+        onwrite: [Function],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 3,
+        prefinished: false,
+        errorEmitted: false },
+     writable: true,
+     allowHalfOpen: true,
+     destroyed: false,
+     bytesRead: 0,
+     _bytesDispatched: 275,
+     _sockname: null,
+     _pendingData: null,
+     _pendingEncoding: '',
+     server: 
+      Server {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 5,
+        _maxListeners: undefined,
+        _connections: 1,
+        _handle: [Object],
+        _usingSlaves: false,
+        _slaves: [],
+        _unref: false,
+        allowHalfOpen: true,
+        pauseOnConnect: false,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        _pendingResponseData: 0,
+        _connectionKey: '4:127.0.0.1:80' },
+     _idleTimeout: 120000,
+     _idleNext: 
+      { [Function: utcDate]
+        _onTimeout: [Function],
+        _idleTimeout: 558,
+        _idleNext: [Object],
+        _idlePrev: [Circular],
+        _idleStart: 3474 },
+     _idlePrev: { _idleNext: [Circular], _idlePrev: [Object] },
+     _idleStart: 3475,
+     parser: 
+      HTTPParser {
+        '0': [Function: parserOnHeaders],
+        '1': [Function: parserOnHeadersComplete],
+        '2': [Function: parserOnBody],
+        '3': [Function: parserOnMessageComplete],
+        '4': [Function: onParserExecute],
+        _headers: [],
+        _url: '',
+        _consumed: true,
+        socket: [Circular],
+        incoming: [Object],
+        maxHeaderPairs: 2000,
+        onIncoming: [Function: parserOnIncoming] },
+     on: [Function: socketOnWrap],
+     _paused: false,
+     read: [Function],
+     _consuming: true,
+     _httpMessage: [Circular] },
+  _header: 'HTTP/1.1 200 OK\r\nX-Powered-By: Express\r\nContent-Type: text/html; charset=utf-8\r\nContent-Length: 75\r\nETag: W/"4b-yo+L8Mgt0uJkbKmDkK5c8A"\r\nDate: Sun, 17 Apr 2016 06:18:34 GMT\r\nConnection: keep-alive\r\n\r\n',
+  _headers: 
+   { 'x-powered-by': 'Express',
+     'content-type': 'text/html; charset=utf-8',
+     'content-length': '75',
+     etag: 'W/"4b-yo+L8Mgt0uJkbKmDkK5c8A"' },
+  _headerNames: 
+   { 'x-powered-by': 'X-Powered-By',
+     'content-type': 'Content-Type',
+     'content-length': 'Content-Length',
+     etag: 'ETag' },
+  _onPendingData: [Function: updateOutgoingData],
+  req: 
+   IncomingMessage {
+     _readableState: 
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: true,
+        endEmitted: true,
+        reading: false,
+        sync: true,
+        needReadable: false,
+        emittedReadable: false,
+        readableListening: false,
+        defaultEncoding: 'utf8',
+        ranOut: false,
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: null,
+        encoding: null,
+        resumeScheduled: false },
+     readable: false,
+     domain: null,
+     _events: {},
+     _eventsCount: 0,
+     _maxListeners: undefined,
+     socket: 
+      Socket {
+        _connecting: false,
+        _hadError: false,
+        _handle: [Object],
+        _parent: null,
+        _host: null,
+        _readableState: [Object],
+        readable: true,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 10,
+        _maxListeners: undefined,
+        _writableState: [Object],
+        writable: true,
+        allowHalfOpen: true,
+        destroyed: false,
+        bytesRead: 0,
+        _bytesDispatched: 275,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: [Object],
+        _idleTimeout: 120000,
+        _idleNext: [Object],
+        _idlePrev: [Object],
+        _idleStart: 3475,
+        parser: [Object],
+        on: [Function: socketOnWrap],
+        _paused: false,
+        read: [Function],
+        _consuming: true,
+        _httpMessage: [Circular] },
+     connection: 
+      Socket {
+        _connecting: false,
+        _hadError: false,
+        _handle: [Object],
+        _parent: null,
+        _host: null,
+        _readableState: [Object],
+        readable: true,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 10,
+        _maxListeners: undefined,
+        _writableState: [Object],
+        writable: true,
+        allowHalfOpen: true,
+        destroyed: false,
+        bytesRead: 0,
+        _bytesDispatched: 275,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: [Object],
+        _idleTimeout: 120000,
+        _idleNext: [Object],
+        _idlePrev: [Object],
+        _idleStart: 3475,
+        parser: [Object],
+        on: [Function: socketOnWrap],
+        _paused: false,
+        read: [Function],
+        _consuming: true,
+        _httpMessage: [Circular] },
+     httpVersionMajor: 1,
+     httpVersionMinor: 1,
+     httpVersion: '1.1',
+     complete: true,
+     headers: 
+      { host: 'localhost',
+        connection: 'keep-alive',
+        'content-length': '19',
+        accept: 'application/json, text/javascript, */*; q=0.01',
+        origin: 'http://127.0.0.1:1234',
+        'user-agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2652.2 Safari/537.36',
+        'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
+        referer: 'http://127.0.0.1:1234/html/login/login.html',
+        'accept-encoding': 'gzip, deflate',
+        'accept-language': 'zh-CN,zh;q=0.8' },
+     rawHeaders: 
+      [ 'Host',
+        'localhost',
+        'Connection',
+        'keep-alive',
+        'Content-Length',
+        '19',
+        'Accept',
+        'application/json, text/javascript, */*; q=0.01',
+        'Origin',
+        'http://127.0.0.1:1234',
+        'User-Agent',
+        'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2652.2 Safari/537.36',
+        'Content-Type',
+        'application/x-www-form-urlencoded; charset=UTF-8',
+        'Referer',
+        'http://127.0.0.1:1234/html/login/login.html',
+        'Accept-Encoding',
+        'gzip, deflate',
+        'Accept-Language',
+        'zh-CN,zh;q=0.8' ],
+     trailers: {},
+     rawTrailers: [],
+     upgrade: false,
+     url: '/onlogin',
+     method: 'POST',
+     statusCode: null,
+     statusMessage: null,
+     client: 
+      Socket {
+        _connecting: false,
+        _hadError: false,
+        _handle: [Object],
+        _parent: null,
+        _host: null,
+        _readableState: [Object],
+        readable: true,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 10,
+        _maxListeners: undefined,
+        _writableState: [Object],
+        writable: true,
+        allowHalfOpen: true,
+        destroyed: false,
+        bytesRead: 0,
+        _bytesDispatched: 275,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: [Object],
+        _idleTimeout: 120000,
+        _idleNext: [Object],
+        _idlePrev: [Object],
+        _idleStart: 3475,
+        parser: [Object],
+        on: [Function: socketOnWrap],
+        _paused: false,
+        read: [Function],
+        _consuming: true,
+        _httpMessage: [Circular] },
+     _consuming: true,
+     _dumped: false,
+     next: [Function: next],
+     baseUrl: '',
+     originalUrl: '/onlogin',
+     _parsedUrl: 
+      Url {
+        protocol: null,
+        slashes: null,
+        auth: null,
+        host: null,
+        port: null,
+        hostname: null,
+        hash: null,
+        search: null,
+        query: null,
+        pathname: '/onlogin',
+        path: '/onlogin',
+        href: '/onlogin',
+        _raw: '/onlogin' },
+     params: {},
+     query: {},
+     res: [Circular],
+     body: { userName: '', password: '' },
+     _body: true,
+     length: undefined,
+     read: [Function],
+     secret: undefined,
+     cookies: {},
+     signedCookies: {},
+     route: Route { path: '/onlogin', stack: [Object], methods: [Object] } },
+  locals: {},
+  statusMessage: 'OK',
+  statusCode: 200 }
+[2016-04-17 14:19:26.361] [INFO] console - ckey server is running 80
+[2016-04-17 14:19:44.763] [INFO] console - ckey server is running 80
+[2016-04-17 14:19:50.315] [INFO] console - ServerResponse {
+  domain: null,
+  _events: { finish: [Function: resOnFinish] },
+  _eventsCount: 1,
+  _maxListeners: undefined,
+  output: [],
+  outputEncodings: [],
+  outputCallbacks: [],
+  outputSize: 0,
+  writable: true,
+  _last: false,
+  chunkedEncoding: false,
+  shouldKeepAlive: true,
+  useChunkedEncodingByDefault: true,
+  sendDate: true,
+  _removedHeader: { 'content-length': false },
+  _contentLength: 75,
+  _hasBody: true,
+  _trailer: '',
+  finished: true,
+  _headerSent: true,
+  socket: 
+   Socket {
+     _connecting: false,
+     _hadError: false,
+     _handle: 
+      TCP {
+        _externalStream: {},
+        fd: -1,
+        reading: true,
+        owner: [Circular],
+        onread: [Function: onread],
+        onconnection: null,
+        writeQueueSize: 0 },
+     _parent: null,
+     _host: null,
+     _readableState: 
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        defaultEncoding: 'utf8',
+        ranOut: false,
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: null,
+        encoding: null,
+        resumeScheduled: false },
+     readable: true,
+     domain: null,
+     _events: 
+      { end: [Object],
+        finish: [Function: onSocketFinish],
+        _socketEnd: [Function: onSocketEnd],
+        drain: [Object],
+        timeout: [Function],
+        error: [Function: socketOnError],
+        close: [Object],
+        data: [Function: socketOnData],
+        resume: [Function: onSocketResume],
+        pause: [Function: onSocketPause] },
+     _eventsCount: 10,
+     _maxListeners: undefined,
+     _writableState: 
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: false,
+        bufferProcessing: false,
+        onwrite: [Function],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 3,
+        prefinished: false,
+        errorEmitted: false },
+     writable: true,
+     allowHalfOpen: true,
+     destroyed: false,
+     bytesRead: 0,
+     _bytesDispatched: 275,
+     _sockname: null,
+     _pendingData: null,
+     _pendingEncoding: '',
+     server: 
+      Server {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 5,
+        _maxListeners: undefined,
+        _connections: 1,
+        _handle: [Object],
+        _usingSlaves: false,
+        _slaves: [],
+        _unref: false,
+        allowHalfOpen: true,
+        pauseOnConnect: false,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        _pendingResponseData: 0,
+        _connectionKey: '4:127.0.0.1:80' },
+     _idleTimeout: 120000,
+     _idleNext: 
+      { [Function: utcDate]
+        _onTimeout: [Function],
+        _idleTimeout: 687,
+        _idleNext: [Object],
+        _idlePrev: [Circular],
+        _idleStart: 6011 },
+     _idlePrev: { _idleNext: [Circular], _idlePrev: [Object] },
+     _idleStart: 6012,
+     parser: 
+      HTTPParser {
+        '0': [Function: parserOnHeaders],
+        '1': [Function: parserOnHeadersComplete],
+        '2': [Function: parserOnBody],
+        '3': [Function: parserOnMessageComplete],
+        '4': [Function: onParserExecute],
+        _headers: [],
+        _url: '',
+        _consumed: true,
+        socket: [Circular],
+        incoming: [Object],
+        maxHeaderPairs: 2000,
+        onIncoming: [Function: parserOnIncoming] },
+     on: [Function: socketOnWrap],
+     _paused: false,
+     read: [Function],
+     _consuming: true,
+     _httpMessage: [Circular] },
+  connection: 
+   Socket {
+     _connecting: false,
+     _hadError: false,
+     _handle: 
+      TCP {
+        _externalStream: {},
+        fd: -1,
+        reading: true,
+        owner: [Circular],
+        onread: [Function: onread],
+        onconnection: null,
+        writeQueueSize: 0 },
+     _parent: null,
+     _host: null,
+     _readableState: 
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        defaultEncoding: 'utf8',
+        ranOut: false,
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: null,
+        encoding: null,
+        resumeScheduled: false },
+     readable: true,
+     domain: null,
+     _events: 
+      { end: [Object],
+        finish: [Function: onSocketFinish],
+        _socketEnd: [Function: onSocketEnd],
+        drain: [Object],
+        timeout: [Function],
+        error: [Function: socketOnError],
+        close: [Object],
+        data: [Function: socketOnData],
+        resume: [Function: onSocketResume],
+        pause: [Function: onSocketPause] },
+     _eventsCount: 10,
+     _maxListeners: undefined,
+     _writableState: 
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: false,
+        bufferProcessing: false,
+        onwrite: [Function],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 3,
+        prefinished: false,
+        errorEmitted: false },
+     writable: true,
+     allowHalfOpen: true,
+     destroyed: false,
+     bytesRead: 0,
+     _bytesDispatched: 275,
+     _sockname: null,
+     _pendingData: null,
+     _pendingEncoding: '',
+     server: 
+      Server {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 5,
+        _maxListeners: undefined,
+        _connections: 1,
+        _handle: [Object],
+        _usingSlaves: false,
+        _slaves: [],
+        _unref: false,
+        allowHalfOpen: true,
+        pauseOnConnect: false,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        _pendingResponseData: 0,
+        _connectionKey: '4:127.0.0.1:80' },
+     _idleTimeout: 120000,
+     _idleNext: 
+      { [Function: utcDate]
+        _onTimeout: [Function],
+        _idleTimeout: 687,
+        _idleNext: [Object],
+        _idlePrev: [Circular],
+        _idleStart: 6011 },
+     _idlePrev: { _idleNext: [Circular], _idlePrev: [Object] },
+     _idleStart: 6012,
+     parser: 
+      HTTPParser {
+        '0': [Function: parserOnHeaders],
+        '1': [Function: parserOnHeadersComplete],
+        '2': [Function: parserOnBody],
+        '3': [Function: parserOnMessageComplete],
+        '4': [Function: onParserExecute],
+        _headers: [],
+        _url: '',
+        _consumed: true,
+        socket: [Circular],
+        incoming: [Object],
+        maxHeaderPairs: 2000,
+        onIncoming: [Function: parserOnIncoming] },
+     on: [Function: socketOnWrap],
+     _paused: false,
+     read: [Function],
+     _consuming: true,
+     _httpMessage: [Circular] },
+  _header: 'HTTP/1.1 200 OK\r\nX-Powered-By: Express\r\nContent-Type: text/html; charset=utf-8\r\nContent-Length: 75\r\nETag: W/"4b-yo+L8Mgt0uJkbKmDkK5c8A"\r\nDate: Sun, 17 Apr 2016 06:19:50 GMT\r\nConnection: keep-alive\r\n\r\n',
+  _headers: 
+   { 'x-powered-by': 'Express',
+     'content-type': 'text/html; charset=utf-8',
+     'content-length': '75',
+     etag: 'W/"4b-yo+L8Mgt0uJkbKmDkK5c8A"' },
+  _headerNames: 
+   { 'x-powered-by': 'X-Powered-By',
+     'content-type': 'Content-Type',
+     'content-length': 'Content-Length',
+     etag: 'ETag' },
+  _onPendingData: [Function: updateOutgoingData],
+  req: 
+   IncomingMessage {
+     _readableState: 
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: true,
+        endEmitted: true,
+        reading: false,
+        sync: true,
+        needReadable: false,
+        emittedReadable: false,
+        readableListening: false,
+        defaultEncoding: 'utf8',
+        ranOut: false,
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: null,
+        encoding: null,
+        resumeScheduled: false },
+     readable: false,
+     domain: null,
+     _events: {},
+     _eventsCount: 0,
+     _maxListeners: undefined,
+     socket: 
+      Socket {
+        _connecting: false,
+        _hadError: false,
+        _handle: [Object],
+        _parent: null,
+        _host: null,
+        _readableState: [Object],
+        readable: true,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 10,
+        _maxListeners: undefined,
+        _writableState: [Object],
+        writable: true,
+        allowHalfOpen: true,
+        destroyed: false,
+        bytesRead: 0,
+        _bytesDispatched: 275,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: [Object],
+        _idleTimeout: 120000,
+        _idleNext: [Object],
+        _idlePrev: [Object],
+        _idleStart: 6012,
+        parser: [Object],
+        on: [Function: socketOnWrap],
+        _paused: false,
+        read: [Function],
+        _consuming: true,
+        _httpMessage: [Circular] },
+     connection: 
+      Socket {
+        _connecting: false,
+        _hadError: false,
+        _handle: [Object],
+        _parent: null,
+        _host: null,
+        _readableState: [Object],
+        readable: true,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 10,
+        _maxListeners: undefined,
+        _writableState: [Object],
+        writable: true,
+        allowHalfOpen: true,
+        destroyed: false,
+        bytesRead: 0,
+        _bytesDispatched: 275,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: [Object],
+        _idleTimeout: 120000,
+        _idleNext: [Object],
+        _idlePrev: [Object],
+        _idleStart: 6012,
+        parser: [Object],
+        on: [Function: socketOnWrap],
+        _paused: false,
+        read: [Function],
+        _consuming: true,
+        _httpMessage: [Circular] },
+     httpVersionMajor: 1,
+     httpVersionMinor: 1,
+     httpVersion: '1.1',
+     complete: true,
+     headers: 
+      { host: 'localhost',
+        connection: 'keep-alive',
+        'content-length': '21',
+        accept: 'application/json, text/javascript, */*; q=0.01',
+        origin: 'http://127.0.0.1:1234',
+        'user-agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2652.2 Safari/537.36',
+        'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
+        referer: 'http://127.0.0.1:1234/html/login/login.html',
+        'accept-encoding': 'gzip, deflate',
+        'accept-language': 'zh-CN,zh;q=0.8' },
+     rawHeaders: 
+      [ 'Host',
+        'localhost',
+        'Connection',
+        'keep-alive',
+        'Content-Length',
+        '21',
+        'Accept',
+        'application/json, text/javascript, */*; q=0.01',
+        'Origin',
+        'http://127.0.0.1:1234',
+        'User-Agent',
+        'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2652.2 Safari/537.36',
+        'Content-Type',
+        'application/x-www-form-urlencoded; charset=UTF-8',
+        'Referer',
+        'http://127.0.0.1:1234/html/login/login.html',
+        'Accept-Encoding',
+        'gzip, deflate',
+        'Accept-Language',
+        'zh-CN,zh;q=0.8' ],
+     trailers: {},
+     rawTrailers: [],
+     upgrade: false,
+     url: '/onlogin',
+     method: 'POST',
+     statusCode: null,
+     statusMessage: null,
+     client: 
+      Socket {
+        _connecting: false,
+        _hadError: false,
+        _handle: [Object],
+        _parent: null,
+        _host: null,
+        _readableState: [Object],
+        readable: true,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 10,
+        _maxListeners: undefined,
+        _writableState: [Object],
+        writable: true,
+        allowHalfOpen: true,
+        destroyed: false,
+        bytesRead: 0,
+        _bytesDispatched: 275,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: [Object],
+        _idleTimeout: 120000,
+        _idleNext: [Object],
+        _idlePrev: [Object],
+        _idleStart: 6012,
+        parser: [Object],
+        on: [Function: socketOnWrap],
+        _paused: false,
+        read: [Function],
+        _consuming: true,
+        _httpMessage: [Circular] },
+     _consuming: true,
+     _dumped: false,
+     next: [Function: next],
+     baseUrl: '',
+     originalUrl: '/onlogin',
+     _parsedUrl: 
+      Url {
+        protocol: null,
+        slashes: null,
+        auth: null,
+        host: null,
+        port: null,
+        hostname: null,
+        hash: null,
+        search: null,
+        query: null,
+        pathname: '/onlogin',
+        path: '/onlogin',
+        href: '/onlogin',
+        _raw: '/onlogin' },
+     params: {},
+     query: {},
+     res: [Circular],
+     body: { userName: 'aa', password: '' },
+     _body: true,
+     length: undefined,
+     read: [Function],
+     secret: undefined,
+     cookies: {},
+     signedCookies: {},
+     route: Route { path: '/onlogin', stack: [Object], methods: [Object] } },
+  locals: {},
+  statusMessage: 'OK',
+  statusCode: 200 }
+[2016-04-17 14:22:48.071] [INFO] console - ckey server is running 80
+[2016-04-17 14:24:15.788] [INFO] console - ckey server is running 80
+[2016-04-17 14:24:54.834] [INFO] console - ckey server is running 80
+[2016-04-17 14:25:13.300] [INFO] console - ckey server is running 80
+[2016-04-17 14:25:28.228] [INFO] console - ckey server is running 80
+[2016-04-17 14:25:48.623] [INFO] console - ckey server is running 80
+[2016-04-17 14:26:50.508] [INFO] console - ckey server is running 80
+[2016-04-17 14:29:36.274] [INFO] console - ckey server is running 80
+[2016-04-17 14:30:03.471] [INFO] console - aaa aaaaaaaa
+[2016-04-17 14:32:30.604] [INFO] console - ckey server is running 80
+[2016-04-17 14:32:35.540] [INFO] console - aaa aaaaaaaa
+[2016-04-17 14:32:52.016] [INFO] console - ckey server is running 80
+[2016-04-17 14:32:54.382] [INFO] console - aaa aaaaaaaa
+[2016-04-17 14:33:07.436] [INFO] console - aaa aaaaaaaa
+[2016-04-17 14:35:36.528] [INFO] console - ckey server is running 80
+[2016-04-17 14:35:41.027] [INFO] console - aaa aaaaaaaa
+[2016-04-17 14:36:19.713] [INFO] console - aaa aaa
+[2016-04-17 14:38:03.996] [INFO] console - ckey server is running 80
+[2016-04-17 14:38:15.433] [INFO] console - aaa aaa
+[2016-04-17 14:38:44.625] [INFO] console - aaaaaaa aaa
+[2016-04-17 14:40:24.447] [INFO] console - ckey server is running 80
+[2016-04-17 14:40:34.569] [INFO] console - aaa aaa
+[2016-04-17 14:41:35.543] [INFO] console - ckey server is running 80
+[2016-04-17 14:43:26.356] [INFO] console - ckey server is running 80
+[2016-04-17 14:43:30.597] [INFO] console - ckey server is running 80
+[2016-04-17 14:43:33.986] [INFO] console - aaa aaa
+[2016-04-17 14:44:00.979] [INFO] console - ckey server is running 80
+[2016-04-17 14:44:04.037] [INFO] console - aaa aaa
+[2016-04-17 14:44:20.742] [INFO] console - ckey server is running 80
+[2016-04-17 14:44:23.558] [INFO] console - aaa aaa
+[2016-04-17 14:44:41.414] [INFO] console - ckey server is running 80
+[2016-04-17 14:44:44.351] [INFO] console - aaa aaa
+[2016-04-17 14:46:00.428] [INFO] console - ckey server is running 80
+[2016-04-17 14:46:02.366] [INFO] console - aa aaa
+[2016-04-17 14:46:28.584] [INFO] console - ckey server is running 80
+[2016-04-17 14:46:31.118] [INFO] console - aa aaa
+[2016-04-17 14:46:31.127] [INFO] console - []
+[2016-04-17 14:46:54.313] [INFO] console - ckey server is running 80
+[2016-04-17 14:46:56.325] [INFO] console - ckey aaa
+[2016-04-17 14:46:56.339] [INFO] console - [ { name: [Getter/Setter],
+    age: [Getter/Setter],
+    id: [Getter/Setter] } ]
+[2016-04-17 14:47:24.377] [INFO] console - ckey server is running 80
+[2016-04-17 14:47:29.218] [INFO] console - ckey aaa
+[2016-04-17 14:47:29.231] [INFO] console - [ { name: [Getter/Setter],
+    age: [Getter/Setter],
+    id: [Getter/Setter] } ]
+[2016-04-17 14:47:58.400] [INFO] console - ckey server is running 80
+[2016-04-17 14:48:05.361] [INFO] console - ckey 
+[2016-04-17 14:52:59.922] [INFO] console - ckey server is running 80
+[2016-04-17 14:53:01.955] [INFO] console - ckey 
+[2016-04-17 14:53:50.569] [INFO] console - ckey 
+[2016-04-17 14:54:41.768] [INFO] console - ckey server is running 3738
+[2016-04-17 14:54:57.174] [INFO] console - ckey 
+[2016-04-17 14:56:04.999] [INFO] console - ckey 
+[2016-04-17 14:56:13.526] [INFO] console - ckey 
+[2016-04-17 14:58:26.334] [INFO] console - ckey server is running 3738
+[2016-04-17 14:58:34.334] [INFO] console - ckey 
+[2016-04-17 14:59:47.521] [INFO] console - ckey server is running 3738
+[2016-04-17 14:59:51.770] [INFO] console - ckey 
+[2016-04-17 15:00:10.545] [INFO] console - ckey server is running 3738
+[2016-04-17 15:00:18.557] [INFO] console - ckey 
+[2016-04-17 15:01:05.931] [INFO] console - ckey server is running 3738
+[2016-04-17 15:01:09.352] [INFO] console - ckey 
+[2016-04-17 15:01:09.367] [INFO] console - {"users":[{"name":"ckey","age":22,"id":1}]}
+[2016-04-17 15:02:01.470] [INFO] console - ckey 
+[2016-04-17 15:02:01.478] [INFO] console - {"users":[{"name":"ckey","age":22,"id":1}]}
+[2016-04-17 15:04:22.845] [INFO] console - ckey 111
+[2016-04-17 15:04:22.861] [INFO] console - {"users":[{"name":"ckey","age":22,"id":1}]}
+[2016-04-17 15:06:43.976] [INFO] console - ckey server is running 3738
+[2016-04-17 15:07:58.028] [INFO] console -  
+[2016-04-17 15:07:58.041] [INFO] console - {"users":[]}
+[2016-04-17 15:08:29.742] [INFO] console - ckey server is running 3738
+[2016-04-17 15:08:32.763] [INFO] console -  
+[2016-04-17 15:11:23.626] [INFO] console - ckey 
+[2016-04-17 15:11:23.645] [INFO] console - {"users":[{"name":"ckey","age":22,"id":1}]}
+[2016-04-17 15:40:20.745] [INFO] console - ckey server is running 3738
+[2016-04-17 15:40:20.765] [INFO] console - ͬ�����ɹ�!
+[2016-04-17 15:43:52.912] [INFO] console - ckey 
+[2016-04-17 15:46:02.905] [INFO] console - ckey server is running 3738
+[2016-04-17 15:46:02.930] [INFO] console - ͬ�����ɹ�!
+[2016-04-17 15:46:05.059] [INFO] console - ckey 111
+[2016-04-17 15:46:52.025] [INFO] console - ckey 123
+[2016-04-17 15:52:16.890] [INFO] console - ckey server is running 3738
+[2016-04-17 15:54:55.671] [INFO] console - ckey server is running 3738
+[2016-04-17 15:57:07.837] [INFO] console - ckey server is running 3738
+[2016-04-17 15:58:57.807] [INFO] console - ckey server is running 3738
+[2016-04-17 15:59:09.136] [INFO] console - ckey server is running 3738
+[2016-04-17 16:03:37.467] [INFO] console - undefined undefined
+[2016-04-17 16:06:45.016] [INFO] console - undefined undefined
+[2016-04-17 16:07:46.059] [INFO] console - undefined undefined
+[2016-04-17 16:08:07.047] [INFO] console - ckey server is running 3738
+[2016-04-17 16:08:10.525] [INFO] console - undefined
+[2016-04-17 16:08:10.527] [INFO] console - undefined undefined
+[2016-04-17 16:10:07.186] [INFO] console - undefined
+[2016-04-17 16:10:07.190] [INFO] console - undefined undefined
+[2016-04-17 16:10:45.108] [INFO] console - ckey server is running 3738
+[2016-04-17 16:10:47.599] [INFO] console - {}
+[2016-04-17 16:10:47.644] [INFO] console - undefined undefined
+[2016-04-17 16:10:59.490] [INFO] console - ckey server is running 3738
+[2016-04-17 16:11:01.279] [INFO] console - IncomingMessage {
+  _readableState: 
+   ReadableState {
+     objectMode: false,
+     highWaterMark: 16384,
+     buffer: [],
+     length: 0,
+     pipes: null,
+     pipesCount: 0,
+     flowing: null,
+     ended: true,
+     endEmitted: false,
+     reading: false,
+     sync: true,
+     needReadable: false,
+     emittedReadable: true,
+     readableListening: false,
+     defaultEncoding: 'utf8',
+     ranOut: false,
+     awaitDrain: 0,
+     readingMore: false,
+     decoder: null,
+     encoding: null },
+  readable: true,
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  socket: 
+   Socket {
+     _connecting: false,
+     _hadError: false,
+     _handle: 
+      TCP {
+        _externalStream: {},
+        fd: -1,
+        reading: true,
+        owner: [Circular],
+        onread: [Function: onread],
+        onconnection: null,
+        writeQueueSize: 0 },
+     _parent: null,
+     _host: null,
+     _readableState: 
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        defaultEncoding: 'utf8',
+        ranOut: false,
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: null,
+        encoding: null,
+        resumeScheduled: false },
+     readable: true,
+     domain: null,
+     _events: 
+      { end: [Object],
+        finish: [Function: onSocketFinish],
+        _socketEnd: [Function: onSocketEnd],
+        drain: [Object],
+        timeout: [Function],
+        error: [Function: socketOnError],
+        close: [Object],
+        data: [Function: socketOnData],
+        resume: [Function: onSocketResume],
+        pause: [Function: onSocketPause] },
+     _eventsCount: 10,
+     _maxListeners: undefined,
+     _writableState: 
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: true,
+        bufferProcessing: false,
+        onwrite: [Function],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: false,
+        errorEmitted: false },
+     writable: true,
+     allowHalfOpen: true,
+     destroyed: false,
+     bytesRead: 0,
+     _bytesDispatched: 0,
+     _sockname: null,
+     _pendingData: null,
+     _pendingEncoding: '',
+     server: 
+      Server {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 5,
+        _maxListeners: undefined,
+        _connections: 1,
+        _handle: [Object],
+        _usingSlaves: false,
+        _slaves: [],
+        _unref: false,
+        allowHalfOpen: true,
+        pauseOnConnect: false,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        _pendingResponseData: 0,
+        _connectionKey: '4:127.0.0.1:3738' },
+     _idleTimeout: 120000,
+     _idleNext: { _idleNext: [Circular], _idlePrev: [Circular] },
+     _idlePrev: { _idleNext: [Circular], _idlePrev: [Circular] },
+     _idleStart: 2234,
+     parser: 
+      HTTPParser {
+        '0': [Function: parserOnHeaders],
+        '1': [Function: parserOnHeadersComplete],
+        '2': [Function: parserOnBody],
+        '3': [Function: parserOnMessageComplete],
+        '4': [Function: onParserExecute],
+        _headers: [],
+        _url: '',
+        _consumed: true,
+        socket: [Circular],
+        incoming: [Circular],
+        maxHeaderPairs: 2000,
+        onIncoming: [Function: parserOnIncoming] },
+     on: [Function: socketOnWrap],
+     _paused: false,
+     read: [Function],
+     _consuming: true,
+     _httpMessage: 
+      ServerResponse {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 1,
+        _maxListeners: undefined,
+        output: [],
+        outputEncodings: [],
+        outputCallbacks: [],
+        outputSize: 0,
+        writable: true,
+        _last: false,
+        chunkedEncoding: false,
+        shouldKeepAlive: true,
+        useChunkedEncodingByDefault: true,
+        sendDate: true,
+        _removedHeader: {},
+        _contentLength: null,
+        _hasBody: true,
+        _trailer: '',
+        finished: false,
+        _headerSent: false,
+        socket: [Circular],
+        connection: [Circular],
+        _header: null,
+        _headers: [Object],
+        _headerNames: [Object],
+        _onPendingData: [Function: updateOutgoingData],
+        req: [Circular],
+        locals: {} } },
+  connection: 
+   Socket {
+     _connecting: false,
+     _hadError: false,
+     _handle: 
+      TCP {
+        _externalStream: {},
+        fd: -1,
+        reading: true,
+        owner: [Circular],
+        onread: [Function: onread],
+        onconnection: null,
+        writeQueueSize: 0 },
+     _parent: null,
+     _host: null,
+     _readableState: 
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        defaultEncoding: 'utf8',
+        ranOut: false,
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: null,
+        encoding: null,
+        resumeScheduled: false },
+     readable: true,
+     domain: null,
+     _events: 
+      { end: [Object],
+        finish: [Function: onSocketFinish],
+        _socketEnd: [Function: onSocketEnd],
+        drain: [Object],
+        timeout: [Function],
+        error: [Function: socketOnError],
+        close: [Object],
+        data: [Function: socketOnData],
+        resume: [Function: onSocketResume],
+        pause: [Function: onSocketPause] },
+     _eventsCount: 10,
+     _maxListeners: undefined,
+     _writableState: 
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: true,
+        bufferProcessing: false,
+        onwrite: [Function],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: false,
+        errorEmitted: false },
+     writable: true,
+     allowHalfOpen: true,
+     destroyed: false,
+     bytesRead: 0,
+     _bytesDispatched: 0,
+     _sockname: null,
+     _pendingData: null,
+     _pendingEncoding: '',
+     server: 
+      Server {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 5,
+        _maxListeners: undefined,
+        _connections: 1,
+        _handle: [Object],
+        _usingSlaves: false,
+        _slaves: [],
+        _unref: false,
+        allowHalfOpen: true,
+        pauseOnConnect: false,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        _pendingResponseData: 0,
+        _connectionKey: '4:127.0.0.1:3738' },
+     _idleTimeout: 120000,
+     _idleNext: { _idleNext: [Circular], _idlePrev: [Circular] },
+     _idlePrev: { _idleNext: [Circular], _idlePrev: [Circular] },
+     _idleStart: 2234,
+     parser: 
+      HTTPParser {
+        '0': [Function: parserOnHeaders],
+        '1': [Function: parserOnHeadersComplete],
+        '2': [Function: parserOnBody],
+        '3': [Function: parserOnMessageComplete],
+        '4': [Function: onParserExecute],
+        _headers: [],
+        _url: '',
+        _consumed: true,
+        socket: [Circular],
+        incoming: [Circular],
+        maxHeaderPairs: 2000,
+        onIncoming: [Function: parserOnIncoming] },
+     on: [Function: socketOnWrap],
+     _paused: false,
+     read: [Function],
+     _consuming: true,
+     _httpMessage: 
+      ServerResponse {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 1,
+        _maxListeners: undefined,
+        output: [],
+        outputEncodings: [],
+        outputCallbacks: [],
+        outputSize: 0,
+        writable: true,
+        _last: false,
+        chunkedEncoding: false,
+        shouldKeepAlive: true,
+        useChunkedEncodingByDefault: true,
+        sendDate: true,
+        _removedHeader: {},
+        _contentLength: null,
+        _hasBody: true,
+        _trailer: '',
+        finished: false,
+        _headerSent: false,
+        socket: [Circular],
+        connection: [Circular],
+        _header: null,
+        _headers: [Object],
+        _headerNames: [Object],
+        _onPendingData: [Function: updateOutgoingData],
+        req: [Circular],
+        locals: {} } },
+  httpVersionMajor: 1,
+  httpVersionMinor: 1,
+  httpVersion: '1.1',
+  complete: true,
+  headers: 
+   { host: '127.0.0.1:3738',
+     connection: 'keep-alive',
+     accept: '*/*',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2652.2 Safari/537.36',
+     referer: 'http://127.0.0.1:1234/html/login/login.html',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'zh-CN,zh;q=0.8' },
+  rawHeaders: 
+   [ 'Host',
+     '127.0.0.1:3738',
+     'Connection',
+     'keep-alive',
+     'Accept',
+     '*/*',
+     'User-Agent',
+     'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2652.2 Safari/537.36',
+     'Referer',
+     'http://127.0.0.1:1234/html/login/login.html',
+     'Accept-Encoding',
+     'gzip, deflate, sdch',
+     'Accept-Language',
+     'zh-CN,zh;q=0.8' ],
+  trailers: {},
+  rawTrailers: [],
+  upgrade: false,
+  url: '/onlogin?callback=jQuery1110035312608827555647_1460880590035&userName=ckey&password=123&_=1460880590038',
+  method: 'GET',
+  statusCode: null,
+  statusMessage: null,
+  client: 
+   Socket {
+     _connecting: false,
+     _hadError: false,
+     _handle: 
+      TCP {
+        _externalStream: {},
+        fd: -1,
+        reading: true,
+        owner: [Circular],
+        onread: [Function: onread],
+        onconnection: null,
+        writeQueueSize: 0 },
+     _parent: null,
+     _host: null,
+     _readableState: 
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        defaultEncoding: 'utf8',
+        ranOut: false,
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: null,
+        encoding: null,
+        resumeScheduled: false },
+     readable: true,
+     domain: null,
+     _events: 
+      { end: [Object],
+        finish: [Function: onSocketFinish],
+        _socketEnd: [Function: onSocketEnd],
+        drain: [Object],
+        timeout: [Function],
+        error: [Function: socketOnError],
+        close: [Object],
+        data: [Function: socketOnData],
+        resume: [Function: onSocketResume],
+        pause: [Function: onSocketPause] },
+     _eventsCount: 10,
+     _maxListeners: undefined,
+     _writableState: 
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: true,
+        bufferProcessing: false,
+        onwrite: [Function],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: false,
+        errorEmitted: false },
+     writable: true,
+     allowHalfOpen: true,
+     destroyed: false,
+     bytesRead: 0,
+     _bytesDispatched: 0,
+     _sockname: null,
+     _pendingData: null,
+     _pendingEncoding: '',
+     server: 
+      Server {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 5,
+        _maxListeners: undefined,
+        _connections: 1,
+        _handle: [Object],
+        _usingSlaves: false,
+        _slaves: [],
+        _unref: false,
+        allowHalfOpen: true,
+        pauseOnConnect: false,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        _pendingResponseData: 0,
+        _connectionKey: '4:127.0.0.1:3738' },
+     _idleTimeout: 120000,
+     _idleNext: { _idleNext: [Circular], _idlePrev: [Circular] },
+     _idlePrev: { _idleNext: [Circular], _idlePrev: [Circular] },
+     _idleStart: 2234,
+     parser: 
+      HTTPParser {
+        '0': [Function: parserOnHeaders],
+        '1': [Function: parserOnHeadersComplete],
+        '2': [Function: parserOnBody],
+        '3': [Function: parserOnMessageComplete],
+        '4': [Function: onParserExecute],
+        _headers: [],
+        _url: '',
+        _consumed: true,
+        socket: [Circular],
+        incoming: [Circular],
+        maxHeaderPairs: 2000,
+        onIncoming: [Function: parserOnIncoming] },
+     on: [Function: socketOnWrap],
+     _paused: false,
+     read: [Function],
+     _consuming: true,
+     _httpMessage: 
+      ServerResponse {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 1,
+        _maxListeners: undefined,
+        output: [],
+        outputEncodings: [],
+        outputCallbacks: [],
+        outputSize: 0,
+        writable: true,
+        _last: false,
+        chunkedEncoding: false,
+        shouldKeepAlive: true,
+        useChunkedEncodingByDefault: true,
+        sendDate: true,
+        _removedHeader: {},
+        _contentLength: null,
+        _hasBody: true,
+        _trailer: '',
+        finished: false,
+        _headerSent: false,
+        socket: [Circular],
+        connection: [Circular],
+        _header: null,
+        _headers: [Object],
+        _headerNames: [Object],
+        _onPendingData: [Function: updateOutgoingData],
+        req: [Circular],
+        locals: {} } },
+  _consuming: false,
+  _dumped: false,
+  next: [Function: next],
+  baseUrl: '',
+  originalUrl: '/onlogin?callback=jQuery1110035312608827555647_1460880590035&userName=ckey&password=123&_=1460880590038',
+  _parsedUrl: 
+   Url {
+     protocol: null,
+     slashes: null,
+     auth: null,
+     host: null,
+     port: null,
+     hostname: null,
+     hash: null,
+     search: '?callback=jQuery1110035312608827555647_1460880590035&userName=ckey&password=123&_=1460880590038',
+     query: 'callback=jQuery1110035312608827555647_1460880590035&userName=ckey&password=123&_=1460880590038',
+     pathname: '/onlogin',
+     path: '/onlogin?callback=jQuery1110035312608827555647_1460880590035&userName=ckey&password=123&_=1460880590038',
+     href: '/onlogin?callback=jQuery1110035312608827555647_1460880590035&userName=ckey&password=123&_=1460880590038',
+     _raw: '/onlogin?callback=jQuery1110035312608827555647_1460880590035&userName=ckey&password=123&_=1460880590038' },
+  params: {},
+  query: 
+   { callback: 'jQuery1110035312608827555647_1460880590035',
+     userName: 'ckey',
+     password: '123',
+     _: '1460880590038' },
+  res: 
+   ServerResponse {
+     domain: null,
+     _events: { finish: [Function: resOnFinish] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     output: [],
+     outputEncodings: [],
+     outputCallbacks: [],
+     outputSize: 0,
+     writable: true,
+     _last: false,
+     chunkedEncoding: false,
+     shouldKeepAlive: true,
+     useChunkedEncodingByDefault: true,
+     sendDate: true,
+     _removedHeader: {},
+     _contentLength: null,
+     _hasBody: true,
+     _trailer: '',
+     finished: false,
+     _headerSent: false,
+     socket: 
+      Socket {
+        _connecting: false,
+        _hadError: false,
+        _handle: [Object],
+        _parent: null,
+        _host: null,
+        _readableState: [Object],
+        readable: true,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 10,
+        _maxListeners: undefined,
+        _writableState: [Object],
+        writable: true,
+        allowHalfOpen: true,
+        destroyed: false,
+        bytesRead: 0,
+        _bytesDispatched: 0,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: [Object],
+        _idleTimeout: 120000,
+        _idleNext: [Object],
+        _idlePrev: [Object],
+        _idleStart: 2234,
+        parser: [Object],
+        on: [Function: socketOnWrap],
+        _paused: false,
+        read: [Function],
+        _consuming: true,
+        _httpMessage: [Circular] },
+     connection: 
+      Socket {
+        _connecting: false,
+        _hadError: false,
+        _handle: [Object],
+        _parent: null,
+        _host: null,
+        _readableState: [Object],
+        readable: true,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 10,
+        _maxListeners: undefined,
+        _writableState: [Object],
+        writable: true,
+        allowHalfOpen: true,
+        destroyed: false,
+        bytesRead: 0,
+        _bytesDispatched: 0,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: [Object],
+        _idleTimeout: 120000,
+        _idleNext: [Object],
+        _idlePrev: [Object],
+        _idleStart: 2234,
+        parser: [Object],
+        on: [Function: socketOnWrap],
+        _paused: false,
+        read: [Function],
+        _consuming: true,
+        _httpMessage: [Circular] },
+     _header: null,
+     _headers: { 'x-powered-by': 'Express' },
+     _headerNames: { 'x-powered-by': 'X-Powered-By' },
+     _onPendingData: [Function: updateOutgoingData],
+     req: [Circular],
+     locals: {} },
+  body: {},
+  secret: undefined,
+  cookies: {},
+  signedCookies: {},
+  _parsedOriginalUrl: 
+   Url {
+     protocol: null,
+     slashes: null,
+     auth: null,
+     host: null,
+     port: null,
+     hostname: null,
+     hash: null,
+     search: '?callback=jQuery1110035312608827555647_1460880590035&userName=ckey&password=123&_=1460880590038',
+     query: 'callback=jQuery1110035312608827555647_1460880590035&userName=ckey&password=123&_=1460880590038',
+     pathname: '/onlogin',
+     path: '/onlogin?callback=jQuery1110035312608827555647_1460880590035&userName=ckey&password=123&_=1460880590038',
+     href: '/onlogin?callback=jQuery1110035312608827555647_1460880590035&userName=ckey&password=123&_=1460880590038',
+     _raw: '/onlogin?callback=jQuery1110035312608827555647_1460880590035&userName=ckey&password=123&_=1460880590038' },
+  route: Route { path: '/onlogin', stack: [ [Object] ], methods: { get: true } } }
+[2016-04-17 16:11:01.359] [INFO] console - undefined undefined
+[2016-04-17 16:18:01.901] [INFO] console - ckey server is running 3738
+[2016-04-17 16:18:07.442] [INFO] console - IncomingMessage {
+  _readableState: 
+   ReadableState {
+     objectMode: false,
+     highWaterMark: 16384,
+     buffer: [],
+     length: 0,
+     pipes: null,
+     pipesCount: 0,
+     flowing: null,
+     ended: true,
+     endEmitted: false,
+     reading: false,
+     sync: true,
+     needReadable: false,
+     emittedReadable: true,
+     readableListening: false,
+     defaultEncoding: 'utf8',
+     ranOut: false,
+     awaitDrain: 0,
+     readingMore: false,
+     decoder: null,
+     encoding: null },
+  readable: true,
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  socket: 
+   Socket {
+     _connecting: false,
+     _hadError: false,
+     _handle: 
+      TCP {
+        _externalStream: {},
+        fd: -1,
+        reading: true,
+        owner: [Circular],
+        onread: [Function: onread],
+        onconnection: null,
+        writeQueueSize: 0 },
+     _parent: null,
+     _host: null,
+     _readableState: 
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        defaultEncoding: 'utf8',
+        ranOut: false,
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: null,
+        encoding: null,
+        resumeScheduled: false },
+     readable: true,
+     domain: null,
+     _events: 
+      { end: [Object],
+        finish: [Function: onSocketFinish],
+        _socketEnd: [Function: onSocketEnd],
+        drain: [Object],
+        timeout: [Function],
+        error: [Function: socketOnError],
+        close: [Object],
+        data: [Function: socketOnData],
+        resume: [Function: onSocketResume],
+        pause: [Function: onSocketPause] },
+     _eventsCount: 10,
+     _maxListeners: undefined,
+     _writableState: 
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: true,
+        bufferProcessing: false,
+        onwrite: [Function],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: false,
+        errorEmitted: false },
+     writable: true,
+     allowHalfOpen: true,
+     destroyed: false,
+     bytesRead: 0,
+     _bytesDispatched: 0,
+     _sockname: null,
+     _pendingData: null,
+     _pendingEncoding: '',
+     server: 
+      Server {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 5,
+        _maxListeners: undefined,
+        _connections: 1,
+        _handle: [Object],
+        _usingSlaves: false,
+        _slaves: [],
+        _unref: false,
+        allowHalfOpen: true,
+        pauseOnConnect: false,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        _pendingResponseData: 0,
+        _connectionKey: '4:127.0.0.1:3738' },
+     _idleTimeout: 120000,
+     _idleNext: { _idleNext: [Circular], _idlePrev: [Circular] },
+     _idlePrev: { _idleNext: [Circular], _idlePrev: [Circular] },
+     _idleStart: 5999,
+     parser: 
+      HTTPParser {
+        '0': [Function: parserOnHeaders],
+        '1': [Function: parserOnHeadersComplete],
+        '2': [Function: parserOnBody],
+        '3': [Function: parserOnMessageComplete],
+        '4': [Function: onParserExecute],
+        _headers: [],
+        _url: '',
+        _consumed: true,
+        socket: [Circular],
+        incoming: [Circular],
+        maxHeaderPairs: 2000,
+        onIncoming: [Function: parserOnIncoming] },
+     on: [Function: socketOnWrap],
+     _paused: false,
+     read: [Function],
+     _consuming: true,
+     _httpMessage: 
+      ServerResponse {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 1,
+        _maxListeners: undefined,
+        output: [],
+        outputEncodings: [],
+        outputCallbacks: [],
+        outputSize: 0,
+        writable: true,
+        _last: false,
+        chunkedEncoding: false,
+        shouldKeepAlive: true,
+        useChunkedEncodingByDefault: true,
+        sendDate: true,
+        _removedHeader: {},
+        _contentLength: null,
+        _hasBody: true,
+        _trailer: '',
+        finished: false,
+        _headerSent: false,
+        socket: [Circular],
+        connection: [Circular],
+        _header: null,
+        _headers: [Object],
+        _headerNames: [Object],
+        _onPendingData: [Function: updateOutgoingData],
+        req: [Circular],
+        locals: {} } },
+  connection: 
+   Socket {
+     _connecting: false,
+     _hadError: false,
+     _handle: 
+      TCP {
+        _externalStream: {},
+        fd: -1,
+        reading: true,
+        owner: [Circular],
+        onread: [Function: onread],
+        onconnection: null,
+        writeQueueSize: 0 },
+     _parent: null,
+     _host: null,
+     _readableState: 
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        defaultEncoding: 'utf8',
+        ranOut: false,
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: null,
+        encoding: null,
+        resumeScheduled: false },
+     readable: true,
+     domain: null,
+     _events: 
+      { end: [Object],
+        finish: [Function: onSocketFinish],
+        _socketEnd: [Function: onSocketEnd],
+        drain: [Object],
+        timeout: [Function],
+        error: [Function: socketOnError],
+        close: [Object],
+        data: [Function: socketOnData],
+        resume: [Function: onSocketResume],
+        pause: [Function: onSocketPause] },
+     _eventsCount: 10,
+     _maxListeners: undefined,
+     _writableState: 
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: true,
+        bufferProcessing: false,
+        onwrite: [Function],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: false,
+        errorEmitted: false },
+     writable: true,
+     allowHalfOpen: true,
+     destroyed: false,
+     bytesRead: 0,
+     _bytesDispatched: 0,
+     _sockname: null,
+     _pendingData: null,
+     _pendingEncoding: '',
+     server: 
+      Server {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 5,
+        _maxListeners: undefined,
+        _connections: 1,
+        _handle: [Object],
+        _usingSlaves: false,
+        _slaves: [],
+        _unref: false,
+        allowHalfOpen: true,
+        pauseOnConnect: false,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        _pendingResponseData: 0,
+        _connectionKey: '4:127.0.0.1:3738' },
+     _idleTimeout: 120000,
+     _idleNext: { _idleNext: [Circular], _idlePrev: [Circular] },
+     _idlePrev: { _idleNext: [Circular], _idlePrev: [Circular] },
+     _idleStart: 5999,
+     parser: 
+      HTTPParser {
+        '0': [Function: parserOnHeaders],
+        '1': [Function: parserOnHeadersComplete],
+        '2': [Function: parserOnBody],
+        '3': [Function: parserOnMessageComplete],
+        '4': [Function: onParserExecute],
+        _headers: [],
+        _url: '',
+        _consumed: true,
+        socket: [Circular],
+        incoming: [Circular],
+        maxHeaderPairs: 2000,
+        onIncoming: [Function: parserOnIncoming] },
+     on: [Function: socketOnWrap],
+     _paused: false,
+     read: [Function],
+     _consuming: true,
+     _httpMessage: 
+      ServerResponse {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 1,
+        _maxListeners: undefined,
+        output: [],
+        outputEncodings: [],
+        outputCallbacks: [],
+        outputSize: 0,
+        writable: true,
+        _last: false,
+        chunkedEncoding: false,
+        shouldKeepAlive: true,
+        useChunkedEncodingByDefault: true,
+        sendDate: true,
+        _removedHeader: {},
+        _contentLength: null,
+        _hasBody: true,
+        _trailer: '',
+        finished: false,
+        _headerSent: false,
+        socket: [Circular],
+        connection: [Circular],
+        _header: null,
+        _headers: [Object],
+        _headerNames: [Object],
+        _onPendingData: [Function: updateOutgoingData],
+        req: [Circular],
+        locals: {} } },
+  httpVersionMajor: 1,
+  httpVersionMinor: 1,
+  httpVersion: '1.1',
+  complete: true,
+  headers: 
+   { host: '127.0.0.1:3738',
+     connection: 'keep-alive',
+     accept: '*/*',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2652.2 Safari/537.36',
+     referer: 'http://127.0.0.1:1234/html/login/login.html',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'zh-CN,zh;q=0.8' },
+  rawHeaders: 
+   [ 'Host',
+     '127.0.0.1:3738',
+     'Connection',
+     'keep-alive',
+     'Accept',
+     '*/*',
+     'User-Agent',
+     'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2652.2 Safari/537.36',
+     'Referer',
+     'http://127.0.0.1:1234/html/login/login.html',
+     'Accept-Encoding',
+     'gzip, deflate, sdch',
+     'Accept-Language',
+     'zh-CN,zh;q=0.8' ],
+  trailers: {},
+  rawTrailers: [],
+  upgrade: false,
+  url: '/onlogin?callback=jQuery1110035312608827555647_1460880590035&userName=ckey&password=123&_=1460880590039',
+  method: 'GET',
+  statusCode: null,
+  statusMessage: null,
+  client: 
+   Socket {
+     _connecting: false,
+     _hadError: false,
+     _handle: 
+      TCP {
+        _externalStream: {},
+        fd: -1,
+        reading: true,
+        owner: [Circular],
+        onread: [Function: onread],
+        onconnection: null,
+        writeQueueSize: 0 },
+     _parent: null,
+     _host: null,
+     _readableState: 
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        defaultEncoding: 'utf8',
+        ranOut: false,
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: null,
+        encoding: null,
+        resumeScheduled: false },
+     readable: true,
+     domain: null,
+     _events: 
+      { end: [Object],
+        finish: [Function: onSocketFinish],
+        _socketEnd: [Function: onSocketEnd],
+        drain: [Object],
+        timeout: [Function],
+        error: [Function: socketOnError],
+        close: [Object],
+        data: [Function: socketOnData],
+        resume: [Function: onSocketResume],
+        pause: [Function: onSocketPause] },
+     _eventsCount: 10,
+     _maxListeners: undefined,
+     _writableState: 
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: true,
+        bufferProcessing: false,
+        onwrite: [Function],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: false,
+        errorEmitted: false },
+     writable: true,
+     allowHalfOpen: true,
+     destroyed: false,
+     bytesRead: 0,
+     _bytesDispatched: 0,
+     _sockname: null,
+     _pendingData: null,
+     _pendingEncoding: '',
+     server: 
+      Server {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 5,
+        _maxListeners: undefined,
+        _connections: 1,
+        _handle: [Object],
+        _usingSlaves: false,
+        _slaves: [],
+        _unref: false,
+        allowHalfOpen: true,
+        pauseOnConnect: false,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        _pendingResponseData: 0,
+        _connectionKey: '4:127.0.0.1:3738' },
+     _idleTimeout: 120000,
+     _idleNext: { _idleNext: [Circular], _idlePrev: [Circular] },
+     _idlePrev: { _idleNext: [Circular], _idlePrev: [Circular] },
+     _idleStart: 5999,
+     parser: 
+      HTTPParser {
+        '0': [Function: parserOnHeaders],
+        '1': [Function: parserOnHeadersComplete],
+        '2': [Function: parserOnBody],
+        '3': [Function: parserOnMessageComplete],
+        '4': [Function: onParserExecute],
+        _headers: [],
+        _url: '',
+        _consumed: true,
+        socket: [Circular],
+        incoming: [Circular],
+        maxHeaderPairs: 2000,
+        onIncoming: [Function: parserOnIncoming] },
+     on: [Function: socketOnWrap],
+     _paused: false,
+     read: [Function],
+     _consuming: true,
+     _httpMessage: 
+      ServerResponse {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 1,
+        _maxListeners: undefined,
+        output: [],
+        outputEncodings: [],
+        outputCallbacks: [],
+        outputSize: 0,
+        writable: true,
+        _last: false,
+        chunkedEncoding: false,
+        shouldKeepAlive: true,
+        useChunkedEncodingByDefault: true,
+        sendDate: true,
+        _removedHeader: {},
+        _contentLength: null,
+        _hasBody: true,
+        _trailer: '',
+        finished: false,
+        _headerSent: false,
+        socket: [Circular],
+        connection: [Circular],
+        _header: null,
+        _headers: [Object],
+        _headerNames: [Object],
+        _onPendingData: [Function: updateOutgoingData],
+        req: [Circular],
+        locals: {} } },
+  _consuming: false,
+  _dumped: false,
+  next: [Function: next],
+  baseUrl: '',
+  originalUrl: '/onlogin?callback=jQuery1110035312608827555647_1460880590035&userName=ckey&password=123&_=1460880590039',
+  _parsedUrl: 
+   Url {
+     protocol: null,
+     slashes: null,
+     auth: null,
+     host: null,
+     port: null,
+     hostname: null,
+     hash: null,
+     search: '?callback=jQuery1110035312608827555647_1460880590035&userName=ckey&password=123&_=1460880590039',
+     query: 'callback=jQuery1110035312608827555647_1460880590035&userName=ckey&password=123&_=1460880590039',
+     pathname: '/onlogin',
+     path: '/onlogin?callback=jQuery1110035312608827555647_1460880590035&userName=ckey&password=123&_=1460880590039',
+     href: '/onlogin?callback=jQuery1110035312608827555647_1460880590035&userName=ckey&password=123&_=1460880590039',
+     _raw: '/onlogin?callback=jQuery1110035312608827555647_1460880590035&userName=ckey&password=123&_=1460880590039' },
+  params: {},
+  query: 
+   { callback: 'jQuery1110035312608827555647_1460880590035',
+     userName: 'ckey',
+     password: '123',
+     _: '1460880590039' },
+  res: 
+   ServerResponse {
+     domain: null,
+     _events: { finish: [Function: resOnFinish] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     output: [],
+     outputEncodings: [],
+     outputCallbacks: [],
+     outputSize: 0,
+     writable: true,
+     _last: false,
+     chunkedEncoding: false,
+     shouldKeepAlive: true,
+     useChunkedEncodingByDefault: true,
+     sendDate: true,
+     _removedHeader: {},
+     _contentLength: null,
+     _hasBody: true,
+     _trailer: '',
+     finished: false,
+     _headerSent: false,
+     socket: 
+      Socket {
+        _connecting: false,
+        _hadError: false,
+        _handle: [Object],
+        _parent: null,
+        _host: null,
+        _readableState: [Object],
+        readable: true,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 10,
+        _maxListeners: undefined,
+        _writableState: [Object],
+        writable: true,
+        allowHalfOpen: true,
+        destroyed: false,
+        bytesRead: 0,
+        _bytesDispatched: 0,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: [Object],
+        _idleTimeout: 120000,
+        _idleNext: [Object],
+        _idlePrev: [Object],
+        _idleStart: 5999,
+        parser: [Object],
+        on: [Function: socketOnWrap],
+        _paused: false,
+        read: [Function],
+        _consuming: true,
+        _httpMessage: [Circular] },
+     connection: 
+      Socket {
+        _connecting: false,
+        _hadError: false,
+        _handle: [Object],
+        _parent: null,
+        _host: null,
+        _readableState: [Object],
+        readable: true,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 10,
+        _maxListeners: undefined,
+        _writableState: [Object],
+        writable: true,
+        allowHalfOpen: true,
+        destroyed: false,
+        bytesRead: 0,
+        _bytesDispatched: 0,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: [Object],
+        _idleTimeout: 120000,
+        _idleNext: [Object],
+        _idlePrev: [Object],
+        _idleStart: 5999,
+        parser: [Object],
+        on: [Function: socketOnWrap],
+        _paused: false,
+        read: [Function],
+        _consuming: true,
+        _httpMessage: [Circular] },
+     _header: null,
+     _headers: { 'x-powered-by': 'Express' },
+     _headerNames: { 'x-powered-by': 'X-Powered-By' },
+     _onPendingData: [Function: updateOutgoingData],
+     req: [Circular],
+     locals: {} },
+  body: {},
+  secret: undefined,
+  cookies: {},
+  signedCookies: {},
+  _parsedOriginalUrl: 
+   Url {
+     protocol: null,
+     slashes: null,
+     auth: null,
+     host: null,
+     port: null,
+     hostname: null,
+     hash: null,
+     search: '?callback=jQuery1110035312608827555647_1460880590035&userName=ckey&password=123&_=1460880590039',
+     query: 'callback=jQuery1110035312608827555647_1460880590035&userName=ckey&password=123&_=1460880590039',
+     pathname: '/onlogin',
+     path: '/onlogin?callback=jQuery1110035312608827555647_1460880590035&userName=ckey&password=123&_=1460880590039',
+     href: '/onlogin?callback=jQuery1110035312608827555647_1460880590035&userName=ckey&password=123&_=1460880590039',
+     _raw: '/onlogin?callback=jQuery1110035312608827555647_1460880590035&userName=ckey&password=123&_=1460880590039' },
+  route: Route { path: '/onlogin', stack: [ [Object] ], methods: { get: true } } }
+[2016-04-17 16:18:07.491] [INFO] console - undefined undefined
+[2016-04-17 16:19:22.779] [INFO] console - IncomingMessage {
+  _readableState: 
+   ReadableState {
+     objectMode: false,
+     highWaterMark: 16384,
+     buffer: [],
+     length: 0,
+     pipes: null,
+     pipesCount: 0,
+     flowing: null,
+     ended: true,
+     endEmitted: false,
+     reading: false,
+     sync: true,
+     needReadable: false,
+     emittedReadable: true,
+     readableListening: false,
+     defaultEncoding: 'utf8',
+     ranOut: false,
+     awaitDrain: 0,
+     readingMore: false,
+     decoder: null,
+     encoding: null },
+  readable: true,
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  socket: 
+   Socket {
+     _connecting: false,
+     _hadError: false,
+     _handle: 
+      TCP {
+        _externalStream: {},
+        fd: -1,
+        reading: true,
+        owner: [Circular],
+        onread: [Function: onread],
+        onconnection: null,
+        writeQueueSize: 0 },
+     _parent: null,
+     _host: null,
+     _readableState: 
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        defaultEncoding: 'utf8',
+        ranOut: false,
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: null,
+        encoding: null,
+        resumeScheduled: false },
+     readable: true,
+     domain: null,
+     _events: 
+      { end: [Object],
+        finish: [Function: onSocketFinish],
+        _socketEnd: [Function: onSocketEnd],
+        drain: [Object],
+        timeout: [Function],
+        error: [Function: socketOnError],
+        close: [Object],
+        data: [Function: socketOnData],
+        resume: [Function: onSocketResume],
+        pause: [Function: onSocketPause] },
+     _eventsCount: 10,
+     _maxListeners: undefined,
+     _writableState: 
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: false,
+        bufferProcessing: false,
+        onwrite: [Function],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: false,
+        errorEmitted: false },
+     writable: true,
+     allowHalfOpen: true,
+     destroyed: false,
+     bytesRead: 0,
+     _bytesDispatched: 404,
+     _sockname: null,
+     _pendingData: null,
+     _pendingEncoding: '',
+     server: 
+      Server {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 5,
+        _maxListeners: undefined,
+        _connections: 1,
+        _handle: [Object],
+        _usingSlaves: false,
+        _slaves: [],
+        _unref: false,
+        allowHalfOpen: true,
+        pauseOnConnect: false,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        _pendingResponseData: 0,
+        _connectionKey: '4:127.0.0.1:3738' },
+     _idleTimeout: 120000,
+     _idleNext: { _idleNext: [Circular], _idlePrev: [Circular] },
+     _idlePrev: { _idleNext: [Circular], _idlePrev: [Circular] },
+     _idleStart: 6083,
+     parser: 
+      HTTPParser {
+        '0': [Function: parserOnHeaders],
+        '1': [Function: parserOnHeadersComplete],
+        '2': [Function: parserOnBody],
+        '3': [Function: parserOnMessageComplete],
+        '4': [Function: onParserExecute],
+        _headers: [],
+        _url: '',
+        _consumed: true,
+        socket: [Circular],
+        incoming: [Circular],
+        maxHeaderPairs: 2000,
+        onIncoming: [Function: parserOnIncoming] },
+     on: [Function: socketOnWrap],
+     _paused: false,
+     read: [Function],
+     _consuming: true,
+     _httpMessage: 
+      ServerResponse {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 1,
+        _maxListeners: undefined,
+        output: [],
+        outputEncodings: [],
+        outputCallbacks: [],
+        outputSize: 0,
+        writable: true,
+        _last: false,
+        chunkedEncoding: false,
+        shouldKeepAlive: true,
+        useChunkedEncodingByDefault: true,
+        sendDate: true,
+        _removedHeader: {},
+        _contentLength: null,
+        _hasBody: true,
+        _trailer: '',
+        finished: false,
+        _headerSent: false,
+        socket: [Circular],
+        connection: [Circular],
+        _header: null,
+        _headers: [Object],
+        _headerNames: [Object],
+        _onPendingData: [Function: updateOutgoingData],
+        req: [Circular],
+        locals: {} } },
+  connection: 
+   Socket {
+     _connecting: false,
+     _hadError: false,
+     _handle: 
+      TCP {
+        _externalStream: {},
+        fd: -1,
+        reading: true,
+        owner: [Circular],
+        onread: [Function: onread],
+        onconnection: null,
+        writeQueueSize: 0 },
+     _parent: null,
+     _host: null,
+     _readableState: 
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        defaultEncoding: 'utf8',
+        ranOut: false,
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: null,
+        encoding: null,
+        resumeScheduled: false },
+     readable: true,
+     domain: null,
+     _events: 
+      { end: [Object],
+        finish: [Function: onSocketFinish],
+        _socketEnd: [Function: onSocketEnd],
+        drain: [Object],
+        timeout: [Function],
+        error: [Function: socketOnError],
+        close: [Object],
+        data: [Function: socketOnData],
+        resume: [Function: onSocketResume],
+        pause: [Function: onSocketPause] },
+     _eventsCount: 10,
+     _maxListeners: undefined,
+     _writableState: 
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: false,
+        bufferProcessing: false,
+        onwrite: [Function],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: false,
+        errorEmitted: false },
+     writable: true,
+     allowHalfOpen: true,
+     destroyed: false,
+     bytesRead: 0,
+     _bytesDispatched: 404,
+     _sockname: null,
+     _pendingData: null,
+     _pendingEncoding: '',
+     server: 
+      Server {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 5,
+        _maxListeners: undefined,
+        _connections: 1,
+        _handle: [Object],
+        _usingSlaves: false,
+        _slaves: [],
+        _unref: false,
+        allowHalfOpen: true,
+        pauseOnConnect: false,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        _pendingResponseData: 0,
+        _connectionKey: '4:127.0.0.1:3738' },
+     _idleTimeout: 120000,
+     _idleNext: { _idleNext: [Circular], _idlePrev: [Circular] },
+     _idlePrev: { _idleNext: [Circular], _idlePrev: [Circular] },
+     _idleStart: 6083,
+     parser: 
+      HTTPParser {
+        '0': [Function: parserOnHeaders],
+        '1': [Function: parserOnHeadersComplete],
+        '2': [Function: parserOnBody],
+        '3': [Function: parserOnMessageComplete],
+        '4': [Function: onParserExecute],
+        _headers: [],
+        _url: '',
+        _consumed: true,
+        socket: [Circular],
+        incoming: [Circular],
+        maxHeaderPairs: 2000,
+        onIncoming: [Function: parserOnIncoming] },
+     on: [Function: socketOnWrap],
+     _paused: false,
+     read: [Function],
+     _consuming: true,
+     _httpMessage: 
+      ServerResponse {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 1,
+        _maxListeners: undefined,
+        output: [],
+        outputEncodings: [],
+        outputCallbacks: [],
+        outputSize: 0,
+        writable: true,
+        _last: false,
+        chunkedEncoding: false,
+        shouldKeepAlive: true,
+        useChunkedEncodingByDefault: true,
+        sendDate: true,
+        _removedHeader: {},
+        _contentLength: null,
+        _hasBody: true,
+        _trailer: '',
+        finished: false,
+        _headerSent: false,
+        socket: [Circular],
+        connection: [Circular],
+        _header: null,
+        _headers: [Object],
+        _headerNames: [Object],
+        _onPendingData: [Function: updateOutgoingData],
+        req: [Circular],
+        locals: {} } },
+  httpVersionMajor: 1,
+  httpVersionMinor: 1,
+  httpVersion: '1.1',
+  complete: true,
+  headers: 
+   { host: '127.0.0.1:3738',
+     connection: 'keep-alive',
+     accept: '*/*',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2652.2 Safari/537.36',
+     referer: 'http://127.0.0.1:1234/html/login/login.html',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'zh-CN,zh;q=0.8' },
+  rawHeaders: 
+   [ 'Host',
+     '127.0.0.1:3738',
+     'Connection',
+     'keep-alive',
+     'Accept',
+     '*/*',
+     'User-Agent',
+     'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2652.2 Safari/537.36',
+     'Referer',
+     'http://127.0.0.1:1234/html/login/login.html',
+     'Accept-Encoding',
+     'gzip, deflate, sdch',
+     'Accept-Language',
+     'zh-CN,zh;q=0.8' ],
+  trailers: {},
+  rawTrailers: [],
+  upgrade: false,
+  url: '/onlogin?callback=jQuery1110043677701372477973_1460881160888&userName=&password=&_=1460881160889',
+  method: 'GET',
+  statusCode: null,
+  statusMessage: null,
+  client: 
+   Socket {
+     _connecting: false,
+     _hadError: false,
+     _handle: 
+      TCP {
+        _externalStream: {},
+        fd: -1,
+        reading: true,
+        owner: [Circular],
+        onread: [Function: onread],
+        onconnection: null,
+        writeQueueSize: 0 },
+     _parent: null,
+     _host: null,
+     _readableState: 
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        defaultEncoding: 'utf8',
+        ranOut: false,
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: null,
+        encoding: null,
+        resumeScheduled: false },
+     readable: true,
+     domain: null,
+     _events: 
+      { end: [Object],
+        finish: [Function: onSocketFinish],
+        _socketEnd: [Function: onSocketEnd],
+        drain: [Object],
+        timeout: [Function],
+        error: [Function: socketOnError],
+        close: [Object],
+        data: [Function: socketOnData],
+        resume: [Function: onSocketResume],
+        pause: [Function: onSocketPause] },
+     _eventsCount: 10,
+     _maxListeners: undefined,
+     _writableState: 
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: false,
+        bufferProcessing: false,
+        onwrite: [Function],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: false,
+        errorEmitted: false },
+     writable: true,
+     allowHalfOpen: true,
+     destroyed: false,
+     bytesRead: 0,
+     _bytesDispatched: 404,
+     _sockname: null,
+     _pendingData: null,
+     _pendingEncoding: '',
+     server: 
+      Server {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 5,
+        _maxListeners: undefined,
+        _connections: 1,
+        _handle: [Object],
+        _usingSlaves: false,
+        _slaves: [],
+        _unref: false,
+        allowHalfOpen: true,
+        pauseOnConnect: false,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        _pendingResponseData: 0,
+        _connectionKey: '4:127.0.0.1:3738' },
+     _idleTimeout: 120000,
+     _idleNext: { _idleNext: [Circular], _idlePrev: [Circular] },
+     _idlePrev: { _idleNext: [Circular], _idlePrev: [Circular] },
+     _idleStart: 6083,
+     parser: 
+      HTTPParser {
+        '0': [Function: parserOnHeaders],
+        '1': [Function: parserOnHeadersComplete],
+        '2': [Function: parserOnBody],
+        '3': [Function: parserOnMessageComplete],
+        '4': [Function: onParserExecute],
+        _headers: [],
+        _url: '',
+        _consumed: true,
+        socket: [Circular],
+        incoming: [Circular],
+        maxHeaderPairs: 2000,
+        onIncoming: [Function: parserOnIncoming] },
+     on: [Function: socketOnWrap],
+     _paused: false,
+     read: [Function],
+     _consuming: true,
+     _httpMessage: 
+      ServerResponse {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 1,
+        _maxListeners: undefined,
+        output: [],
+        outputEncodings: [],
+        outputCallbacks: [],
+        outputSize: 0,
+        writable: true,
+        _last: false,
+        chunkedEncoding: false,
+        shouldKeepAlive: true,
+        useChunkedEncodingByDefault: true,
+        sendDate: true,
+        _removedHeader: {},
+        _contentLength: null,
+        _hasBody: true,
+        _trailer: '',
+        finished: false,
+        _headerSent: false,
+        socket: [Circular],
+        connection: [Circular],
+        _header: null,
+        _headers: [Object],
+        _headerNames: [Object],
+        _onPendingData: [Function: updateOutgoingData],
+        req: [Circular],
+        locals: {} } },
+  _consuming: false,
+  _dumped: false,
+  next: [Function: next],
+  baseUrl: '',
+  originalUrl: '/onlogin?callback=jQuery1110043677701372477973_1460881160888&userName=&password=&_=1460881160889',
+  _parsedUrl: 
+   Url {
+     protocol: null,
+     slashes: null,
+     auth: null,
+     host: null,
+     port: null,
+     hostname: null,
+     hash: null,
+     search: '?callback=jQuery1110043677701372477973_1460881160888&userName=&password=&_=1460881160889',
+     query: 'callback=jQuery1110043677701372477973_1460881160888&userName=&password=&_=1460881160889',
+     pathname: '/onlogin',
+     path: '/onlogin?callback=jQuery1110043677701372477973_1460881160888&userName=&password=&_=1460881160889',
+     href: '/onlogin?callback=jQuery1110043677701372477973_1460881160888&userName=&password=&_=1460881160889',
+     _raw: '/onlogin?callback=jQuery1110043677701372477973_1460881160888&userName=&password=&_=1460881160889' },
+  params: {},
+  query: 
+   { callback: 'jQuery1110043677701372477973_1460881160888',
+     userName: '',
+     password: '',
+     _: '1460881160889' },
+  res: 
+   ServerResponse {
+     domain: null,
+     _events: { finish: [Function: resOnFinish] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     output: [],
+     outputEncodings: [],
+     outputCallbacks: [],
+     outputSize: 0,
+     writable: true,
+     _last: false,
+     chunkedEncoding: false,
+     shouldKeepAlive: true,
+     useChunkedEncodingByDefault: true,
+     sendDate: true,
+     _removedHeader: {},
+     _contentLength: null,
+     _hasBody: true,
+     _trailer: '',
+     finished: false,
+     _headerSent: false,
+     socket: 
+      Socket {
+        _connecting: false,
+        _hadError: false,
+        _handle: [Object],
+        _parent: null,
+        _host: null,
+        _readableState: [Object],
+        readable: true,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 10,
+        _maxListeners: undefined,
+        _writableState: [Object],
+        writable: true,
+        allowHalfOpen: true,
+        destroyed: false,
+        bytesRead: 0,
+        _bytesDispatched: 404,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: [Object],
+        _idleTimeout: 120000,
+        _idleNext: [Object],
+        _idlePrev: [Object],
+        _idleStart: 6083,
+        parser: [Object],
+        on: [Function: socketOnWrap],
+        _paused: false,
+        read: [Function],
+        _consuming: true,
+        _httpMessage: [Circular] },
+     connection: 
+      Socket {
+        _connecting: false,
+        _hadError: false,
+        _handle: [Object],
+        _parent: null,
+        _host: null,
+        _readableState: [Object],
+        readable: true,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 10,
+        _maxListeners: undefined,
+        _writableState: [Object],
+        writable: true,
+        allowHalfOpen: true,
+        destroyed: false,
+        bytesRead: 0,
+        _bytesDispatched: 404,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: [Object],
+        _idleTimeout: 120000,
+        _idleNext: [Object],
+        _idlePrev: [Object],
+        _idleStart: 6083,
+        parser: [Object],
+        on: [Function: socketOnWrap],
+        _paused: false,
+        read: [Function],
+        _consuming: true,
+        _httpMessage: [Circular] },
+     _header: null,
+     _headers: { 'x-powered-by': 'Express' },
+     _headerNames: { 'x-powered-by': 'X-Powered-By' },
+     _onPendingData: [Function: updateOutgoingData],
+     req: [Circular],
+     locals: {} },
+  body: {},
+  secret: undefined,
+  cookies: {},
+  signedCookies: {},
+  _parsedOriginalUrl: 
+   Url {
+     protocol: null,
+     slashes: null,
+     auth: null,
+     host: null,
+     port: null,
+     hostname: null,
+     hash: null,
+     search: '?callback=jQuery1110043677701372477973_1460881160888&userName=&password=&_=1460881160889',
+     query: 'callback=jQuery1110043677701372477973_1460881160888&userName=&password=&_=1460881160889',
+     pathname: '/onlogin',
+     path: '/onlogin?callback=jQuery1110043677701372477973_1460881160888&userName=&password=&_=1460881160889',
+     href: '/onlogin?callback=jQuery1110043677701372477973_1460881160888&userName=&password=&_=1460881160889',
+     _raw: '/onlogin?callback=jQuery1110043677701372477973_1460881160888&userName=&password=&_=1460881160889' },
+  route: Route { path: '/onlogin', stack: [ [Object] ], methods: { get: true } } }
+[2016-04-17 16:19:22.823] [INFO] console - undefined undefined
+[2016-04-17 16:19:41.861] [INFO] console - IncomingMessage {
+  _readableState: 
+   ReadableState {
+     objectMode: false,
+     highWaterMark: 16384,
+     buffer: [],
+     length: 0,
+     pipes: null,
+     pipesCount: 0,
+     flowing: null,
+     ended: true,
+     endEmitted: false,
+     reading: false,
+     sync: true,
+     needReadable: false,
+     emittedReadable: true,
+     readableListening: false,
+     defaultEncoding: 'utf8',
+     ranOut: false,
+     awaitDrain: 0,
+     readingMore: false,
+     decoder: null,
+     encoding: null },
+  readable: true,
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  socket: 
+   Socket {
+     _connecting: false,
+     _hadError: false,
+     _handle: 
+      TCP {
+        _externalStream: {},
+        fd: -1,
+        reading: true,
+        owner: [Circular],
+        onread: [Function: onread],
+        onconnection: null,
+        writeQueueSize: 0 },
+     _parent: null,
+     _host: null,
+     _readableState: 
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        defaultEncoding: 'utf8',
+        ranOut: false,
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: null,
+        encoding: null,
+        resumeScheduled: false },
+     readable: true,
+     domain: null,
+     _events: 
+      { end: [Object],
+        finish: [Function: onSocketFinish],
+        _socketEnd: [Function: onSocketEnd],
+        drain: [Object],
+        timeout: [Function],
+        error: [Function: socketOnError],
+        close: [Object],
+        data: [Function: socketOnData],
+        resume: [Function: onSocketResume],
+        pause: [Function: onSocketPause] },
+     _eventsCount: 10,
+     _maxListeners: undefined,
+     _writableState: 
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: false,
+        bufferProcessing: false,
+        onwrite: [Function],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: false,
+        errorEmitted: false },
+     writable: true,
+     allowHalfOpen: true,
+     destroyed: false,
+     bytesRead: 0,
+     _bytesDispatched: 808,
+     _sockname: null,
+     _pendingData: null,
+     _pendingEncoding: '',
+     server: 
+      Server {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 5,
+        _maxListeners: undefined,
+        _connections: 3,
+        _handle: [Object],
+        _usingSlaves: false,
+        _slaves: [],
+        _unref: false,
+        allowHalfOpen: true,
+        pauseOnConnect: false,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        _pendingResponseData: 0,
+        _connectionKey: '4:127.0.0.1:3738' },
+     _idleTimeout: 120000,
+     _idleNext: { _idleNext: [Object], _idlePrev: [Circular] },
+     _idlePrev: 
+      Socket {
+        _connecting: false,
+        _hadError: false,
+        _handle: [Object],
+        _parent: null,
+        _host: null,
+        _readableState: [Object],
+        readable: true,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 10,
+        _maxListeners: undefined,
+        _writableState: [Object],
+        writable: true,
+        allowHalfOpen: true,
+        destroyed: false,
+        bytesRead: 0,
+        _bytesDispatched: 0,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: [Object],
+        _idleTimeout: 120000,
+        _idleNext: [Circular],
+        _idlePrev: [Object],
+        _idleStart: 99170,
+        parser: [Object],
+        on: [Function: socketOnWrap],
+        _paused: false,
+        read: [Function],
+        _consuming: true },
+     _idleStart: 81424,
+     parser: 
+      HTTPParser {
+        '0': [Function: parserOnHeaders],
+        '1': [Function: parserOnHeadersComplete],
+        '2': [Function: parserOnBody],
+        '3': [Function: parserOnMessageComplete],
+        '4': [Function: onParserExecute],
+        _headers: [],
+        _url: '',
+        _consumed: true,
+        socket: [Circular],
+        incoming: [Circular],
+        maxHeaderPairs: 2000,
+        onIncoming: [Function: parserOnIncoming] },
+     on: [Function: socketOnWrap],
+     _paused: false,
+     read: [Function],
+     _consuming: true,
+     _httpMessage: 
+      ServerResponse {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 1,
+        _maxListeners: undefined,
+        output: [],
+        outputEncodings: [],
+        outputCallbacks: [],
+        outputSize: 0,
+        writable: true,
+        _last: false,
+        chunkedEncoding: false,
+        shouldKeepAlive: true,
+        useChunkedEncodingByDefault: true,
+        sendDate: true,
+        _removedHeader: {},
+        _contentLength: null,
+        _hasBody: true,
+        _trailer: '',
+        finished: false,
+        _headerSent: false,
+        socket: [Circular],
+        connection: [Circular],
+        _header: null,
+        _headers: [Object],
+        _headerNames: [Object],
+        _onPendingData: [Function: updateOutgoingData],
+        req: [Circular],
+        locals: {} } },
+  connection: 
+   Socket {
+     _connecting: false,
+     _hadError: false,
+     _handle: 
+      TCP {
+        _externalStream: {},
+        fd: -1,
+        reading: true,
+        owner: [Circular],
+        onread: [Function: onread],
+        onconnection: null,
+        writeQueueSize: 0 },
+     _parent: null,
+     _host: null,
+     _readableState: 
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        defaultEncoding: 'utf8',
+        ranOut: false,
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: null,
+        encoding: null,
+        resumeScheduled: false },
+     readable: true,
+     domain: null,
+     _events: 
+      { end: [Object],
+        finish: [Function: onSocketFinish],
+        _socketEnd: [Function: onSocketEnd],
+        drain: [Object],
+        timeout: [Function],
+        error: [Function: socketOnError],
+        close: [Object],
+        data: [Function: socketOnData],
+        resume: [Function: onSocketResume],
+        pause: [Function: onSocketPause] },
+     _eventsCount: 10,
+     _maxListeners: undefined,
+     _writableState: 
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: false,
+        bufferProcessing: false,
+        onwrite: [Function],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: false,
+        errorEmitted: false },
+     writable: true,
+     allowHalfOpen: true,
+     destroyed: false,
+     bytesRead: 0,
+     _bytesDispatched: 808,
+     _sockname: null,
+     _pendingData: null,
+     _pendingEncoding: '',
+     server: 
+      Server {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 5,
+        _maxListeners: undefined,
+        _connections: 3,
+        _handle: [Object],
+        _usingSlaves: false,
+        _slaves: [],
+        _unref: false,
+        allowHalfOpen: true,
+        pauseOnConnect: false,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        _pendingResponseData: 0,
+        _connectionKey: '4:127.0.0.1:3738' },
+     _idleTimeout: 120000,
+     _idleNext: { _idleNext: [Object], _idlePrev: [Circular] },
+     _idlePrev: 
+      Socket {
+        _connecting: false,
+        _hadError: false,
+        _handle: [Object],
+        _parent: null,
+        _host: null,
+        _readableState: [Object],
+        readable: true,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 10,
+        _maxListeners: undefined,
+        _writableState: [Object],
+        writable: true,
+        allowHalfOpen: true,
+        destroyed: false,
+        bytesRead: 0,
+        _bytesDispatched: 0,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: [Object],
+        _idleTimeout: 120000,
+        _idleNext: [Circular],
+        _idlePrev: [Object],
+        _idleStart: 99170,
+        parser: [Object],
+        on: [Function: socketOnWrap],
+        _paused: false,
+        read: [Function],
+        _consuming: true },
+     _idleStart: 81424,
+     parser: 
+      HTTPParser {
+        '0': [Function: parserOnHeaders],
+        '1': [Function: parserOnHeadersComplete],
+        '2': [Function: parserOnBody],
+        '3': [Function: parserOnMessageComplete],
+        '4': [Function: onParserExecute],
+        _headers: [],
+        _url: '',
+        _consumed: true,
+        socket: [Circular],
+        incoming: [Circular],
+        maxHeaderPairs: 2000,
+        onIncoming: [Function: parserOnIncoming] },
+     on: [Function: socketOnWrap],
+     _paused: false,
+     read: [Function],
+     _consuming: true,
+     _httpMessage: 
+      ServerResponse {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 1,
+        _maxListeners: undefined,
+        output: [],
+        outputEncodings: [],
+        outputCallbacks: [],
+        outputSize: 0,
+        writable: true,
+        _last: false,
+        chunkedEncoding: false,
+        shouldKeepAlive: true,
+        useChunkedEncodingByDefault: true,
+        sendDate: true,
+        _removedHeader: {},
+        _contentLength: null,
+        _hasBody: true,
+        _trailer: '',
+        finished: false,
+        _headerSent: false,
+        socket: [Circular],
+        connection: [Circular],
+        _header: null,
+        _headers: [Object],
+        _headerNames: [Object],
+        _onPendingData: [Function: updateOutgoingData],
+        req: [Circular],
+        locals: {} } },
+  httpVersionMajor: 1,
+  httpVersionMinor: 1,
+  httpVersion: '1.1',
+  complete: true,
+  headers: 
+   { host: '127.0.0.1:3738',
+     connection: 'keep-alive',
+     accept: '*/*',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2652.2 Safari/537.36',
+     referer: 'http://127.0.0.1:1234/html/login/login.html',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'zh-CN,zh;q=0.8' },
+  rawHeaders: 
+   [ 'Host',
+     '127.0.0.1:3738',
+     'Connection',
+     'keep-alive',
+     'Accept',
+     '*/*',
+     'User-Agent',
+     'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2652.2 Safari/537.36',
+     'Referer',
+     'http://127.0.0.1:1234/html/login/login.html',
+     'Accept-Encoding',
+     'gzip, deflate, sdch',
+     'Accept-Language',
+     'zh-CN,zh;q=0.8' ],
+  trailers: {},
+  rawTrailers: [],
+  upgrade: false,
+  url: '/onlogin?callback=jQuery111006389353719826623_1460881180859&userName=&password=&_=1460881180860',
+  method: 'GET',
+  statusCode: null,
+  statusMessage: null,
+  client: 
+   Socket {
+     _connecting: false,
+     _hadError: false,
+     _handle: 
+      TCP {
+        _externalStream: {},
+        fd: -1,
+        reading: true,
+        owner: [Circular],
+        onread: [Function: onread],
+        onconnection: null,
+        writeQueueSize: 0 },
+     _parent: null,
+     _host: null,
+     _readableState: 
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        defaultEncoding: 'utf8',
+        ranOut: false,
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: null,
+        encoding: null,
+        resumeScheduled: false },
+     readable: true,
+     domain: null,
+     _events: 
+      { end: [Object],
+        finish: [Function: onSocketFinish],
+        _socketEnd: [Function: onSocketEnd],
+        drain: [Object],
+        timeout: [Function],
+        error: [Function: socketOnError],
+        close: [Object],
+        data: [Function: socketOnData],
+        resume: [Function: onSocketResume],
+        pause: [Function: onSocketPause] },
+     _eventsCount: 10,
+     _maxListeners: undefined,
+     _writableState: 
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: false,
+        bufferProcessing: false,
+        onwrite: [Function],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: false,
+        errorEmitted: false },
+     writable: true,
+     allowHalfOpen: true,
+     destroyed: false,
+     bytesRead: 0,
+     _bytesDispatched: 808,
+     _sockname: null,
+     _pendingData: null,
+     _pendingEncoding: '',
+     server: 
+      Server {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 5,
+        _maxListeners: undefined,
+        _connections: 3,
+        _handle: [Object],
+        _usingSlaves: false,
+        _slaves: [],
+        _unref: false,
+        allowHalfOpen: true,
+        pauseOnConnect: false,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        _pendingResponseData: 0,
+        _connectionKey: '4:127.0.0.1:3738' },
+     _idleTimeout: 120000,
+     _idleNext: { _idleNext: [Object], _idlePrev: [Circular] },
+     _idlePrev: 
+      Socket {
+        _connecting: false,
+        _hadError: false,
+        _handle: [Object],
+        _parent: null,
+        _host: null,
+        _readableState: [Object],
+        readable: true,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 10,
+        _maxListeners: undefined,
+        _writableState: [Object],
+        writable: true,
+        allowHalfOpen: true,
+        destroyed: false,
+        bytesRead: 0,
+        _bytesDispatched: 0,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: [Object],
+        _idleTimeout: 120000,
+        _idleNext: [Circular],
+        _idlePrev: [Object],
+        _idleStart: 99170,
+        parser: [Object],
+        on: [Function: socketOnWrap],
+        _paused: false,
+        read: [Function],
+        _consuming: true },
+     _idleStart: 81424,
+     parser: 
+      HTTPParser {
+        '0': [Function: parserOnHeaders],
+        '1': [Function: parserOnHeadersComplete],
+        '2': [Function: parserOnBody],
+        '3': [Function: parserOnMessageComplete],
+        '4': [Function: onParserExecute],
+        _headers: [],
+        _url: '',
+        _consumed: true,
+        socket: [Circular],
+        incoming: [Circular],
+        maxHeaderPairs: 2000,
+        onIncoming: [Function: parserOnIncoming] },
+     on: [Function: socketOnWrap],
+     _paused: false,
+     read: [Function],
+     _consuming: true,
+     _httpMessage: 
+      ServerResponse {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 1,
+        _maxListeners: undefined,
+        output: [],
+        outputEncodings: [],
+        outputCallbacks: [],
+        outputSize: 0,
+        writable: true,
+        _last: false,
+        chunkedEncoding: false,
+        shouldKeepAlive: true,
+        useChunkedEncodingByDefault: true,
+        sendDate: true,
+        _removedHeader: {},
+        _contentLength: null,
+        _hasBody: true,
+        _trailer: '',
+        finished: false,
+        _headerSent: false,
+        socket: [Circular],
+        connection: [Circular],
+        _header: null,
+        _headers: [Object],
+        _headerNames: [Object],
+        _onPendingData: [Function: updateOutgoingData],
+        req: [Circular],
+        locals: {} } },
+  _consuming: false,
+  _dumped: false,
+  next: [Function: next],
+  baseUrl: '',
+  originalUrl: '/onlogin?callback=jQuery111006389353719826623_1460881180859&userName=&password=&_=1460881180860',
+  _parsedUrl: 
+   Url {
+     protocol: null,
+     slashes: null,
+     auth: null,
+     host: null,
+     port: null,
+     hostname: null,
+     hash: null,
+     search: '?callback=jQuery111006389353719826623_1460881180859&userName=&password=&_=1460881180860',
+     query: 'callback=jQuery111006389353719826623_1460881180859&userName=&password=&_=1460881180860',
+     pathname: '/onlogin',
+     path: '/onlogin?callback=jQuery111006389353719826623_1460881180859&userName=&password=&_=1460881180860',
+     href: '/onlogin?callback=jQuery111006389353719826623_1460881180859&userName=&password=&_=1460881180860',
+     _raw: '/onlogin?callback=jQuery111006389353719826623_1460881180859&userName=&password=&_=1460881180860' },
+  params: {},
+  query: 
+   { callback: 'jQuery111006389353719826623_1460881180859',
+     userName: '',
+     password: '',
+     _: '1460881180860' },
+  res: 
+   ServerResponse {
+     domain: null,
+     _events: { finish: [Function: resOnFinish] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     output: [],
+     outputEncodings: [],
+     outputCallbacks: [],
+     outputSize: 0,
+     writable: true,
+     _last: false,
+     chunkedEncoding: false,
+     shouldKeepAlive: true,
+     useChunkedEncodingByDefault: true,
+     sendDate: true,
+     _removedHeader: {},
+     _contentLength: null,
+     _hasBody: true,
+     _trailer: '',
+     finished: false,
+     _headerSent: false,
+     socket: 
+      Socket {
+        _connecting: false,
+        _hadError: false,
+        _handle: [Object],
+        _parent: null,
+        _host: null,
+        _readableState: [Object],
+        readable: true,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 10,
+        _maxListeners: undefined,
+        _writableState: [Object],
+        writable: true,
+        allowHalfOpen: true,
+        destroyed: false,
+        bytesRead: 0,
+        _bytesDispatched: 808,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: [Object],
+        _idleTimeout: 120000,
+        _idleNext: [Object],
+        _idlePrev: [Object],
+        _idleStart: 81424,
+        parser: [Object],
+        on: [Function: socketOnWrap],
+        _paused: false,
+        read: [Function],
+        _consuming: true,
+        _httpMessage: [Circular] },
+     connection: 
+      Socket {
+        _connecting: false,
+        _hadError: false,
+        _handle: [Object],
+        _parent: null,
+        _host: null,
+        _readableState: [Object],
+        readable: true,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 10,
+        _maxListeners: undefined,
+        _writableState: [Object],
+        writable: true,
+        allowHalfOpen: true,
+        destroyed: false,
+        bytesRead: 0,
+        _bytesDispatched: 808,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: [Object],
+        _idleTimeout: 120000,
+        _idleNext: [Object],
+        _idlePrev: [Object],
+        _idleStart: 81424,
+        parser: [Object],
+        on: [Function: socketOnWrap],
+        _paused: false,
+        read: [Function],
+        _consuming: true,
+        _httpMessage: [Circular] },
+     _header: null,
+     _headers: { 'x-powered-by': 'Express' },
+     _headerNames: { 'x-powered-by': 'X-Powered-By' },
+     _onPendingData: [Function: updateOutgoingData],
+     req: [Circular],
+     locals: {} },
+  body: {},
+  secret: undefined,
+  cookies: {},
+  signedCookies: {},
+  _parsedOriginalUrl: 
+   Url {
+     protocol: null,
+     slashes: null,
+     auth: null,
+     host: null,
+     port: null,
+     hostname: null,
+     hash: null,
+     search: '?callback=jQuery111006389353719826623_1460881180859&userName=&password=&_=1460881180860',
+     query: 'callback=jQuery111006389353719826623_1460881180859&userName=&password=&_=1460881180860',
+     pathname: '/onlogin',
+     path: '/onlogin?callback=jQuery111006389353719826623_1460881180859&userName=&password=&_=1460881180860',
+     href: '/onlogin?callback=jQuery111006389353719826623_1460881180859&userName=&password=&_=1460881180860',
+     _raw: '/onlogin?callback=jQuery111006389353719826623_1460881180859&userName=&password=&_=1460881180860' },
+  route: Route { path: '/onlogin', stack: [ [Object] ], methods: { get: true } } }
+[2016-04-17 16:19:41.894] [INFO] console - undefined undefined
+[2016-04-17 16:20:53.806] [INFO] console - IncomingMessage {
+  _readableState: 
+   ReadableState {
+     objectMode: false,
+     highWaterMark: 16384,
+     buffer: [],
+     length: 0,
+     pipes: null,
+     pipesCount: 0,
+     flowing: null,
+     ended: true,
+     endEmitted: false,
+     reading: false,
+     sync: true,
+     needReadable: false,
+     emittedReadable: true,
+     readableListening: false,
+     defaultEncoding: 'utf8',
+     ranOut: false,
+     awaitDrain: 0,
+     readingMore: false,
+     decoder: null,
+     encoding: null },
+  readable: true,
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  socket: 
+   Socket {
+     _connecting: false,
+     _hadError: false,
+     _handle: 
+      TCP {
+        _externalStream: {},
+        fd: -1,
+        reading: true,
+        owner: [Circular],
+        onread: [Function: onread],
+        onconnection: null,
+        writeQueueSize: 0 },
+     _parent: null,
+     _host: null,
+     _readableState: 
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        defaultEncoding: 'utf8',
+        ranOut: false,
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: null,
+        encoding: null,
+        resumeScheduled: false },
+     readable: true,
+     domain: null,
+     _events: 
+      { end: [Object],
+        finish: [Function: onSocketFinish],
+        _socketEnd: [Function: onSocketEnd],
+        drain: [Object],
+        timeout: [Function],
+        error: [Function: socketOnError],
+        close: [Object],
+        data: [Function: socketOnData],
+        resume: [Function: onSocketResume],
+        pause: [Function: onSocketPause] },
+     _eventsCount: 10,
+     _maxListeners: undefined,
+     _writableState: 
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: false,
+        bufferProcessing: false,
+        onwrite: [Function],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: false,
+        errorEmitted: false },
+     writable: true,
+     allowHalfOpen: true,
+     destroyed: false,
+     bytesRead: 0,
+     _bytesDispatched: 1210,
+     _sockname: null,
+     _pendingData: null,
+     _pendingEncoding: '',
+     server: 
+      Server {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 5,
+        _maxListeners: undefined,
+        _connections: 1,
+        _handle: [Object],
+        _usingSlaves: false,
+        _slaves: [],
+        _unref: false,
+        allowHalfOpen: true,
+        pauseOnConnect: false,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        _pendingResponseData: 0,
+        _connectionKey: '4:127.0.0.1:3738' },
+     _idleTimeout: 120000,
+     _idleNext: { _idleNext: [Circular], _idlePrev: [Circular] },
+     _idlePrev: { _idleNext: [Circular], _idlePrev: [Circular] },
+     _idleStart: 100495,
+     parser: 
+      HTTPParser {
+        '0': [Function: parserOnHeaders],
+        '1': [Function: parserOnHeadersComplete],
+        '2': [Function: parserOnBody],
+        '3': [Function: parserOnMessageComplete],
+        '4': [Function: onParserExecute],
+        _headers: [],
+        _url: '',
+        _consumed: true,
+        socket: [Circular],
+        incoming: [Circular],
+        maxHeaderPairs: 2000,
+        onIncoming: [Function: parserOnIncoming] },
+     on: [Function: socketOnWrap],
+     _paused: false,
+     read: [Function],
+     _consuming: true,
+     _httpMessage: 
+      ServerResponse {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 1,
+        _maxListeners: undefined,
+        output: [],
+        outputEncodings: [],
+        outputCallbacks: [],
+        outputSize: 0,
+        writable: true,
+        _last: false,
+        chunkedEncoding: false,
+        shouldKeepAlive: true,
+        useChunkedEncodingByDefault: true,
+        sendDate: true,
+        _removedHeader: {},
+        _contentLength: null,
+        _hasBody: true,
+        _trailer: '',
+        finished: false,
+        _headerSent: false,
+        socket: [Circular],
+        connection: [Circular],
+        _header: null,
+        _headers: [Object],
+        _headerNames: [Object],
+        _onPendingData: [Function: updateOutgoingData],
+        req: [Circular],
+        locals: {} } },
+  connection: 
+   Socket {
+     _connecting: false,
+     _hadError: false,
+     _handle: 
+      TCP {
+        _externalStream: {},
+        fd: -1,
+        reading: true,
+        owner: [Circular],
+        onread: [Function: onread],
+        onconnection: null,
+        writeQueueSize: 0 },
+     _parent: null,
+     _host: null,
+     _readableState: 
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        defaultEncoding: 'utf8',
+        ranOut: false,
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: null,
+        encoding: null,
+        resumeScheduled: false },
+     readable: true,
+     domain: null,
+     _events: 
+      { end: [Object],
+        finish: [Function: onSocketFinish],
+        _socketEnd: [Function: onSocketEnd],
+        drain: [Object],
+        timeout: [Function],
+        error: [Function: socketOnError],
+        close: [Object],
+        data: [Function: socketOnData],
+        resume: [Function: onSocketResume],
+        pause: [Function: onSocketPause] },
+     _eventsCount: 10,
+     _maxListeners: undefined,
+     _writableState: 
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: false,
+        bufferProcessing: false,
+        onwrite: [Function],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: false,
+        errorEmitted: false },
+     writable: true,
+     allowHalfOpen: true,
+     destroyed: false,
+     bytesRead: 0,
+     _bytesDispatched: 1210,
+     _sockname: null,
+     _pendingData: null,
+     _pendingEncoding: '',
+     server: 
+      Server {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 5,
+        _maxListeners: undefined,
+        _connections: 1,
+        _handle: [Object],
+        _usingSlaves: false,
+        _slaves: [],
+        _unref: false,
+        allowHalfOpen: true,
+        pauseOnConnect: false,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        _pendingResponseData: 0,
+        _connectionKey: '4:127.0.0.1:3738' },
+     _idleTimeout: 120000,
+     _idleNext: { _idleNext: [Circular], _idlePrev: [Circular] },
+     _idlePrev: { _idleNext: [Circular], _idlePrev: [Circular] },
+     _idleStart: 100495,
+     parser: 
+      HTTPParser {
+        '0': [Function: parserOnHeaders],
+        '1': [Function: parserOnHeadersComplete],
+        '2': [Function: parserOnBody],
+        '3': [Function: parserOnMessageComplete],
+        '4': [Function: onParserExecute],
+        _headers: [],
+        _url: '',
+        _consumed: true,
+        socket: [Circular],
+        incoming: [Circular],
+        maxHeaderPairs: 2000,
+        onIncoming: [Function: parserOnIncoming] },
+     on: [Function: socketOnWrap],
+     _paused: false,
+     read: [Function],
+     _consuming: true,
+     _httpMessage: 
+      ServerResponse {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 1,
+        _maxListeners: undefined,
+        output: [],
+        outputEncodings: [],
+        outputCallbacks: [],
+        outputSize: 0,
+        writable: true,
+        _last: false,
+        chunkedEncoding: false,
+        shouldKeepAlive: true,
+        useChunkedEncodingByDefault: true,
+        sendDate: true,
+        _removedHeader: {},
+        _contentLength: null,
+        _hasBody: true,
+        _trailer: '',
+        finished: false,
+        _headerSent: false,
+        socket: [Circular],
+        connection: [Circular],
+        _header: null,
+        _headers: [Object],
+        _headerNames: [Object],
+        _onPendingData: [Function: updateOutgoingData],
+        req: [Circular],
+        locals: {} } },
+  httpVersionMajor: 1,
+  httpVersionMinor: 1,
+  httpVersion: '1.1',
+  complete: true,
+  headers: 
+   { host: '127.0.0.1:3738',
+     connection: 'keep-alive',
+     accept: '*/*',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2652.2 Safari/537.36',
+     referer: 'http://127.0.0.1:1234/html/login/login.html',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'zh-CN,zh;q=0.8' },
+  rawHeaders: 
+   [ 'Host',
+     '127.0.0.1:3738',
+     'Connection',
+     'keep-alive',
+     'Accept',
+     '*/*',
+     'User-Agent',
+     'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2652.2 Safari/537.36',
+     'Referer',
+     'http://127.0.0.1:1234/html/login/login.html',
+     'Accept-Encoding',
+     'gzip, deflate, sdch',
+     'Accept-Language',
+     'zh-CN,zh;q=0.8' ],
+  trailers: {},
+  rawTrailers: [],
+  upgrade: false,
+  url: '/onlogin?callback=jQuery111006389353719826623_1460881180859&userName=ckey&password=123&_=1460881180861',
+  method: 'GET',
+  statusCode: null,
+  statusMessage: null,
+  client: 
+   Socket {
+     _connecting: false,
+     _hadError: false,
+     _handle: 
+      TCP {
+        _externalStream: {},
+        fd: -1,
+        reading: true,
+        owner: [Circular],
+        onread: [Function: onread],
+        onconnection: null,
+        writeQueueSize: 0 },
+     _parent: null,
+     _host: null,
+     _readableState: 
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        defaultEncoding: 'utf8',
+        ranOut: false,
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: null,
+        encoding: null,
+        resumeScheduled: false },
+     readable: true,
+     domain: null,
+     _events: 
+      { end: [Object],
+        finish: [Function: onSocketFinish],
+        _socketEnd: [Function: onSocketEnd],
+        drain: [Object],
+        timeout: [Function],
+        error: [Function: socketOnError],
+        close: [Object],
+        data: [Function: socketOnData],
+        resume: [Function: onSocketResume],
+        pause: [Function: onSocketPause] },
+     _eventsCount: 10,
+     _maxListeners: undefined,
+     _writableState: 
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: false,
+        bufferProcessing: false,
+        onwrite: [Function],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: false,
+        errorEmitted: false },
+     writable: true,
+     allowHalfOpen: true,
+     destroyed: false,
+     bytesRead: 0,
+     _bytesDispatched: 1210,
+     _sockname: null,
+     _pendingData: null,
+     _pendingEncoding: '',
+     server: 
+      Server {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 5,
+        _maxListeners: undefined,
+        _connections: 1,
+        _handle: [Object],
+        _usingSlaves: false,
+        _slaves: [],
+        _unref: false,
+        allowHalfOpen: true,
+        pauseOnConnect: false,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        _pendingResponseData: 0,
+        _connectionKey: '4:127.0.0.1:3738' },
+     _idleTimeout: 120000,
+     _idleNext: { _idleNext: [Circular], _idlePrev: [Circular] },
+     _idlePrev: { _idleNext: [Circular], _idlePrev: [Circular] },
+     _idleStart: 100495,
+     parser: 
+      HTTPParser {
+        '0': [Function: parserOnHeaders],
+        '1': [Function: parserOnHeadersComplete],
+        '2': [Function: parserOnBody],
+        '3': [Function: parserOnMessageComplete],
+        '4': [Function: onParserExecute],
+        _headers: [],
+        _url: '',
+        _consumed: true,
+        socket: [Circular],
+        incoming: [Circular],
+        maxHeaderPairs: 2000,
+        onIncoming: [Function: parserOnIncoming] },
+     on: [Function: socketOnWrap],
+     _paused: false,
+     read: [Function],
+     _consuming: true,
+     _httpMessage: 
+      ServerResponse {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 1,
+        _maxListeners: undefined,
+        output: [],
+        outputEncodings: [],
+        outputCallbacks: [],
+        outputSize: 0,
+        writable: true,
+        _last: false,
+        chunkedEncoding: false,
+        shouldKeepAlive: true,
+        useChunkedEncodingByDefault: true,
+        sendDate: true,
+        _removedHeader: {},
+        _contentLength: null,
+        _hasBody: true,
+        _trailer: '',
+        finished: false,
+        _headerSent: false,
+        socket: [Circular],
+        connection: [Circular],
+        _header: null,
+        _headers: [Object],
+        _headerNames: [Object],
+        _onPendingData: [Function: updateOutgoingData],
+        req: [Circular],
+        locals: {} } },
+  _consuming: false,
+  _dumped: false,
+  next: [Function: next],
+  baseUrl: '',
+  originalUrl: '/onlogin?callback=jQuery111006389353719826623_1460881180859&userName=ckey&password=123&_=1460881180861',
+  _parsedUrl: 
+   Url {
+     protocol: null,
+     slashes: null,
+     auth: null,
+     host: null,
+     port: null,
+     hostname: null,
+     hash: null,
+     search: '?callback=jQuery111006389353719826623_1460881180859&userName=ckey&password=123&_=1460881180861',
+     query: 'callback=jQuery111006389353719826623_1460881180859&userName=ckey&password=123&_=1460881180861',
+     pathname: '/onlogin',
+     path: '/onlogin?callback=jQuery111006389353719826623_1460881180859&userName=ckey&password=123&_=1460881180861',
+     href: '/onlogin?callback=jQuery111006389353719826623_1460881180859&userName=ckey&password=123&_=1460881180861',
+     _raw: '/onlogin?callback=jQuery111006389353719826623_1460881180859&userName=ckey&password=123&_=1460881180861' },
+  params: {},
+  query: 
+   { callback: 'jQuery111006389353719826623_1460881180859',
+     userName: 'ckey',
+     password: '123',
+     _: '1460881180861' },
+  res: 
+   ServerResponse {
+     domain: null,
+     _events: { finish: [Function: resOnFinish] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     output: [],
+     outputEncodings: [],
+     outputCallbacks: [],
+     outputSize: 0,
+     writable: true,
+     _last: false,
+     chunkedEncoding: false,
+     shouldKeepAlive: true,
+     useChunkedEncodingByDefault: true,
+     sendDate: true,
+     _removedHeader: {},
+     _contentLength: null,
+     _hasBody: true,
+     _trailer: '',
+     finished: false,
+     _headerSent: false,
+     socket: 
+      Socket {
+        _connecting: false,
+        _hadError: false,
+        _handle: [Object],
+        _parent: null,
+        _host: null,
+        _readableState: [Object],
+        readable: true,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 10,
+        _maxListeners: undefined,
+        _writableState: [Object],
+        writable: true,
+        allowHalfOpen: true,
+        destroyed: false,
+        bytesRead: 0,
+        _bytesDispatched: 1210,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: [Object],
+        _idleTimeout: 120000,
+        _idleNext: [Object],
+        _idlePrev: [Object],
+        _idleStart: 100495,
+        parser: [Object],
+        on: [Function: socketOnWrap],
+        _paused: false,
+        read: [Function],
+        _consuming: true,
+        _httpMessage: [Circular] },
+     connection: 
+      Socket {
+        _connecting: false,
+        _hadError: false,
+        _handle: [Object],
+        _parent: null,
+        _host: null,
+        _readableState: [Object],
+        readable: true,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 10,
+        _maxListeners: undefined,
+        _writableState: [Object],
+        writable: true,
+        allowHalfOpen: true,
+        destroyed: false,
+        bytesRead: 0,
+        _bytesDispatched: 1210,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: [Object],
+        _idleTimeout: 120000,
+        _idleNext: [Object],
+        _idlePrev: [Object],
+        _idleStart: 100495,
+        parser: [Object],
+        on: [Function: socketOnWrap],
+        _paused: false,
+        read: [Function],
+        _consuming: true,
+        _httpMessage: [Circular] },
+     _header: null,
+     _headers: { 'x-powered-by': 'Express' },
+     _headerNames: { 'x-powered-by': 'X-Powered-By' },
+     _onPendingData: [Function: updateOutgoingData],
+     req: [Circular],
+     locals: {} },
+  body: {},
+  secret: undefined,
+  cookies: {},
+  signedCookies: {},
+  _parsedOriginalUrl: 
+   Url {
+     protocol: null,
+     slashes: null,
+     auth: null,
+     host: null,
+     port: null,
+     hostname: null,
+     hash: null,
+     search: '?callback=jQuery111006389353719826623_1460881180859&userName=ckey&password=123&_=1460881180861',
+     query: 'callback=jQuery111006389353719826623_1460881180859&userName=ckey&password=123&_=1460881180861',
+     pathname: '/onlogin',
+     path: '/onlogin?callback=jQuery111006389353719826623_1460881180859&userName=ckey&password=123&_=1460881180861',
+     href: '/onlogin?callback=jQuery111006389353719826623_1460881180859&userName=ckey&password=123&_=1460881180861',
+     _raw: '/onlogin?callback=jQuery111006389353719826623_1460881180859&userName=ckey&password=123&_=1460881180861' },
+  route: Route { path: '/onlogin', stack: [ [Object] ], methods: { get: true } } }
+[2016-04-17 16:20:53.846] [INFO] console - undefined undefined
+[2016-04-17 16:21:40.750] [INFO] console - ckey server is running 3738
+[2016-04-17 16:21:45.371] [INFO] console - undefined undefined
+[2016-04-17 16:24:11.420] [INFO] console - undefined undefined
+[2016-04-17 16:25:06.352] [INFO] console - undefined undefined
+[2016-04-17 16:26:18.144] [INFO] console - undefined undefined
+[2016-04-17 16:26:52.379] [INFO] console - undefined undefined
+[2016-04-17 16:27:54.842] [INFO] console - ckey server is running 3738
+[2016-04-17 16:27:57.600] [INFO] console - undefined undefined
+[2016-04-17 16:29:19.077] [INFO] console - ckey server is running 3738
+[2016-04-17 16:29:21.226] [INFO] console - {}
+[2016-04-17 16:29:21.257] [INFO] console - undefined undefined
+[2016-04-17 16:31:12.042] [INFO] console - {}
+[2016-04-17 16:31:12.043] [INFO] console - undefined undefined
+[2016-04-17 16:33:20.335] [INFO] console - {}
+[2016-04-17 16:33:20.336] [INFO] console - undefined undefined
+[2016-04-17 16:33:56.420] [INFO] console - ckey server is running 3738
+[2016-04-17 16:33:59.803] [INFO] console - undefined undefined
+[2016-04-17 16:35:04.757] [INFO] console - ckey server is running 3738
+[2016-04-17 16:35:07.018] [INFO] console - undefined undefined
+[2016-04-17 16:35:30.837] [INFO] console - ckey server is running 3738
+[2016-04-17 16:35:37.816] [INFO] console - ckey 123
+[2016-04-17 16:36:00.538] [INFO] console - ckey server is running 3738
+[2016-04-17 16:36:26.276] [INFO] console - ckey server is running 3738
+[2016-04-17 16:36:34.805] [INFO] console - ckey 123
+[2016-04-17 16:38:09.044] [INFO] console - ckey server is running 3738
+[2016-04-17 16:38:12.986] [INFO] console - ckey 123
+[2016-04-17 16:38:41.666] [INFO] console - ckey server is running 3738
+[2016-04-17 16:38:43.958] [INFO] console - ckey 123
+[2016-04-17 16:39:10.017] [INFO] console - ckey 123
+[2016-04-17 16:46:01.212] [INFO] console - ckey server is running 3738
+[2016-04-17 16:46:54.682] [INFO] console - ckey server is running 80
+[2016-04-17 16:46:57.524] [ERROR] console - Error: Cannot find module 'html'
+    at Function.Module._resolveFilename (module.js:325:15)
+    at Function.Module._load (module.js:276:25)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at new View (D:\myproject\spore_adminserver\node_modules\express\lib\view.js:78:30)
+    at EventEmitter.render (D:\myproject\spore_adminserver\node_modules\express\lib\application.js:569:12)
+    at ServerResponse.render (D:\myproject\spore_adminserver\node_modules\express\lib\response.js:961:7)
+    at Object.exports.login (D:\myproject\spore_adminserver\controllers\userservice.js:11:9)
+    at D:\myproject\spore_adminserver\route\routes.js:9:17
+    at Layer.handle [as handle_request] (D:\myproject\spore_adminserver\node_modules\express\lib\router\layer.js:95:5)
+[2016-04-17 16:49:37.359] [INFO] console - ckey server is running 80
+[2016-04-17 16:49:39.935] [ERROR] console - Error: Cannot find module 'html'
+    at Function.Module._resolveFilename (module.js:325:15)
+    at Function.Module._load (module.js:276:25)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at new View (D:\myproject\spore_adminserver\node_modules\express\lib\view.js:78:30)
+    at EventEmitter.render (D:\myproject\spore_adminserver\node_modules\express\lib\application.js:569:12)
+    at ServerResponse.render (D:\myproject\spore_adminserver\node_modules\express\lib\response.js:961:7)
+    at Object.exports.login (D:\myproject\spore_adminserver\controllers\userservice.js:10:9)
+    at D:\myproject\spore_adminserver\route\routes.js:9:17
+    at Layer.handle [as handle_request] (D:\myproject\spore_adminserver\node_modules\express\lib\router\layer.js:95:5)
+[2016-04-17 16:53:59.888] [INFO] console - ckey server is running 80
+[2016-04-17 16:54:06.643] [ERROR] console - Error: Cannot find module 'html'
+    at Function.Module._resolveFilename (module.js:325:15)
+    at Function.Module._load (module.js:276:25)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at new View (D:\myproject\spore_adminserver\node_modules\express\lib\view.js:78:30)
+    at EventEmitter.render (D:\myproject\spore_adminserver\node_modules\express\lib\application.js:569:12)
+    at ServerResponse.render (D:\myproject\spore_adminserver\node_modules\express\lib\response.js:961:7)
+    at Object.exports.login (D:\myproject\spore_adminserver\controllers\userservice.js:10:9)
+    at D:\myproject\spore_adminserver\route\routes.js:9:17
+    at Layer.handle [as handle_request] (D:\myproject\spore_adminserver\node_modules\express\lib\router\layer.js:95:5)
+[2016-04-17 16:55:55.466] [INFO] console - ckey server is running 80
+[2016-04-17 16:56:05.511] [INFO] console - ckey server is running 80
+[2016-04-17 16:57:45.975] [INFO] console - ckey 123
+[2016-04-17 16:58:04.479] [INFO] console - ckey server is running 80
+[2016-04-17 16:58:07.449] [INFO] console - ckey 123
+[2016-04-17 17:01:35.148] [INFO] console - ckey server is running 80
+[2016-04-17 17:01:38.984] [INFO] console - ckey 123
+[2016-04-17 17:01:47.934] [INFO] console - ckey 123
+[2016-04-17 17:01:57.552] [INFO] console - ckey 123
+[2016-04-17 17:02:14.301] [INFO] console - ckey server is running 80
+[2016-04-17 17:02:18.029] [INFO] console - ckey 123
+[2016-04-17 17:02:32.345] [INFO] console - ckey server is running 80
+[2016-04-17 17:02:35.560] [INFO] console - ckey 123
+[2016-04-17 17:04:06.463] [INFO] console - ckey server is running 80
+[2016-04-17 17:04:09.286] [INFO] console - 111111111111
+[2016-04-17 17:04:09.309] [INFO] console - ckey 123
+[2016-04-17 17:04:38.319] [INFO] console - 111111111111
+[2016-04-17 17:04:38.326] [INFO] console - ckey 123
+[2016-04-17 17:05:02.945] [INFO] console - 111111111111
+[2016-04-17 17:05:02.947] [INFO] console - ckey 123
+[2016-04-17 17:05:44.206] [INFO] console - 111111111111
+[2016-04-17 17:05:44.231] [ERROR] console - Error: Cannot find module 'html'
+    at Function.Module._resolveFilename (module.js:325:15)
+    at Function.Module._load (module.js:276:25)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at new View (D:\myproject\spore_adminserver\node_modules\express\lib\view.js:78:30)
+    at EventEmitter.render (D:\myproject\spore_adminserver\node_modules\express\lib\application.js:569:12)
+    at ServerResponse.render (D:\myproject\spore_adminserver\node_modules\express\lib\response.js:961:7)
+    at Object.exports.login (D:\myproject\spore_adminserver\controllers\userservice.js:10:9)
+    at D:\myproject\spore_adminserver\route\routes.js:9:17
+    at Layer.handle [as handle_request] (D:\myproject\spore_adminserver\node_modules\express\lib\router\layer.js:95:5)
+[2016-04-17 17:06:10.467] [INFO] console - ckey server is running 80
+[2016-04-17 17:06:13.359] [INFO] console - 111111111111
+[2016-04-17 17:06:13.371] [ERROR] console - Error: Cannot find module 'html'
+    at Function.Module._resolveFilename (module.js:325:15)
+    at Function.Module._load (module.js:276:25)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at new View (D:\myproject\spore_adminserver\node_modules\express\lib\view.js:78:30)
+    at EventEmitter.render (D:\myproject\spore_adminserver\node_modules\express\lib\application.js:569:12)
+    at ServerResponse.render (D:\myproject\spore_adminserver\node_modules\express\lib\response.js:961:7)
+    at Object.exports.login (D:\myproject\spore_adminserver\controllers\userservice.js:10:9)
+    at D:\myproject\spore_adminserver\route\routes.js:9:17
+    at Layer.handle [as handle_request] (D:\myproject\spore_adminserver\node_modules\express\lib\router\layer.js:95:5)
+[2016-04-17 17:07:36.459] [INFO] console - ckey server is running 80
+[2016-04-17 17:07:38.925] [INFO] console - 111111111111
+[2016-04-17 17:07:38.945] [ERROR] console - Error: Cannot find module 'html'
+    at Function.Module._resolveFilename (module.js:325:15)
+    at Function.Module._load (module.js:276:25)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at new View (D:\myproject\spore_adminserver\node_modules\express\lib\view.js:78:30)
+    at EventEmitter.render (D:\myproject\spore_adminserver\node_modules\express\lib\application.js:569:12)
+    at ServerResponse.render (D:\myproject\spore_adminserver\node_modules\express\lib\response.js:961:7)
+    at Object.exports.login (D:\myproject\spore_adminserver\controllers\userservice.js:10:9)
+    at D:\myproject\spore_adminserver\route\routes.js:9:17
+    at Layer.handle [as handle_request] (D:\myproject\spore_adminserver\node_modules\express\lib\router\layer.js:95:5)
+[2016-04-17 17:08:00.212] [INFO] console - ckey server is running 80
+[2016-04-17 17:09:06.886] [INFO] console - ckey server is running 80
+[2016-04-17 17:09:09.243] [ERROR] console - Error: Cannot find module 'html'
+    at Function.Module._resolveFilename (module.js:325:15)
+    at Function.Module._load (module.js:276:25)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at new View (D:\myproject\spore_adminserver\node_modules\express\lib\view.js:78:30)
+    at EventEmitter.render (D:\myproject\spore_adminserver\node_modules\express\lib\application.js:569:12)
+    at ServerResponse.render (D:\myproject\spore_adminserver\node_modules\express\lib\response.js:961:7)
+    at Object.exports.login (D:\myproject\spore_adminserver\controllers\userservice.js:10:9)
+    at D:\myproject\spore_adminserver\route\routes.js:9:17
+    at Layer.handle [as handle_request] (D:\myproject\spore_adminserver\node_modules\express\lib\router\layer.js:95:5)
+[2016-04-17 17:12:28.070] [INFO] console - ckey server is running 80
+[2016-04-17 17:12:50.687] [INFO] console - ckey server is running 80
+[2016-04-17 17:13:53.803] [INFO] console - ckey server is running 80
+[2016-04-17 17:13:56.895] [INFO] console - 111111
+[2016-04-17 17:14:20.562] [INFO] console - ckey server is running 80
+[2016-04-17 17:14:23.668] [INFO] console - 111111
+[2016-04-17 17:14:28.181] [INFO] console - 111111
+[2016-04-17 17:15:10.673] [INFO] console - ckey server is running 80
+[2016-04-17 17:15:13.260] [INFO] console - D:\myproject\spore_adminserver\controllers
+[2016-04-17 17:16:06.149] [INFO] console - ckey server is running 80
+[2016-04-17 17:16:07.399] [INFO] console - D:\myproject\spore_adminserver\controllers
+[2016-04-17 17:16:07.427] [ERROR] console - TypeError: thislogger.isLevelEnabled is not a function
+    at D:\myproject\spore_adminserver\node_modules\log4js\lib\connect-logger.js:54:18
+    at Layer.handle [as handle_request] (D:\myproject\spore_adminserver\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\myproject\spore_adminserver\node_modules\express\lib\router\index.js:312:13)
+    at D:\myproject\spore_adminserver\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (D:\myproject\spore_adminserver\node_modules\express\lib\router\index.js:330:12)
+    at next (D:\myproject\spore_adminserver\node_modules\express\lib\router\index.js:271:10)
+    at D:\myproject\spore_adminserver\node_modules\express\lib\router\index.js:618:15
+    at next (D:\myproject\spore_adminserver\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (D:\myproject\spore_adminserver\node_modules\express\lib\router\index.js:176:3)
+    at router (D:\myproject\spore_adminserver\node_modules\express\lib\router\index.js:46:12)
+[2016-04-17 17:16:08.741] [ERROR] console - TypeError: thislogger.isLevelEnabled is not a function
+    at D:\myproject\spore_adminserver\node_modules\log4js\lib\connect-logger.js:54:18
+    at Layer.handle [as handle_request] (D:\myproject\spore_adminserver\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\myproject\spore_adminserver\node_modules\express\lib\router\index.js:312:13)
+    at D:\myproject\spore_adminserver\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (D:\myproject\spore_adminserver\node_modules\express\lib\router\index.js:330:12)
+    at next (D:\myproject\spore_adminserver\node_modules\express\lib\router\index.js:271:10)
+    at D:\myproject\spore_adminserver\node_modules\express\lib\router\index.js:618:15
+    at next (D:\myproject\spore_adminserver\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (D:\myproject\spore_adminserver\node_modules\express\lib\router\index.js:176:3)
+    at router (D:\myproject\spore_adminserver\node_modules\express\lib\router\index.js:46:12)
+[2016-04-17 17:16:22.339] [INFO] console - ckey server is running 80
+[2016-04-17 17:16:25.438] [ERROR] console - TypeError: thislogger.isLevelEnabled is not a function
+    at D:\myproject\spore_adminserver\node_modules\log4js\lib\connect-logger.js:54:18
+    at Layer.handle [as handle_request] (D:\myproject\spore_adminserver\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\myproject\spore_adminserver\node_modules\express\lib\router\index.js:312:13)
+    at D:\myproject\spore_adminserver\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (D:\myproject\spore_adminserver\node_modules\express\lib\router\index.js:330:12)
+    at next (D:\myproject\spore_adminserver\node_modules\express\lib\router\index.js:271:10)
+    at D:\myproject\spore_adminserver\node_modules\express\lib\router\index.js:618:15
+    at next (D:\myproject\spore_adminserver\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (D:\myproject\spore_adminserver\node_modules\express\lib\router\index.js:176:3)
+    at router (D:\myproject\spore_adminserver\node_modules\express\lib\router\index.js:46:12)
+[2016-04-17 17:18:26.442] [INFO] console - ckey server is running 1234
+[2016-04-17 17:19:47.476] [ERROR] console - TypeError: thislogger.isLevelEnabled is not a function
+    at D:\myproject\spore_adminserver\node_modules\log4js\lib\connect-logger.js:54:18
+    at Layer.handle [as handle_request] (D:\myproject\spore_adminserver\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\myproject\spore_adminserver\node_modules\express\lib\router\index.js:312:13)
+    at D:\myproject\spore_adminserver\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (D:\myproject\spore_adminserver\node_modules\express\lib\router\index.js:330:12)
+    at next (D:\myproject\spore_adminserver\node_modules\express\lib\router\index.js:271:10)
+    at D:\myproject\spore_adminserver\node_modules\express\lib\router\index.js:618:15
+    at next (D:\myproject\spore_adminserver\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (D:\myproject\spore_adminserver\node_modules\express\lib\router\index.js:176:3)
+    at router (D:\myproject\spore_adminserver\node_modules\express\lib\router\index.js:46:12)
+[2016-04-17 17:20:06.181] [INFO] console - ckey server is running 1234
+[2016-04-17 17:20:33.479] [INFO] console - ckey 123
+[2016-04-17 17:23:44.761] [INFO] console - ckey server is running 80
+[2016-04-17 17:46:42.241] [INFO] console - ckey server is running 80
+[2016-04-17 17:46:50.639] [INFO] console - <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../../css/public/common.css">
+    <link rel="stylesheet" href="../../css/login/login.css">
+    <title>我只是一个登陆界面</title>
+</head>
+<body>
+    <div class="login_bg pr">
+        <div class="div_k">
+            <h1 class="fs_50"> <span class="c_FDE101">WITH</span> <span class="c_white">运营后台管理系统</span></h1>
+            <from method="post">
+                <input id="login_name" class="login_text" placeholder="用户名" type="text"/><br/>
+                <input id="password" class="login_password" placeholder="*********" type="password"/><br/>
+                <span id="message" class="c_emphasize pa" style="right:30%;"></span>
+                <div class="d_y">
+                     <input id="login_btn" class="login_btn" type="button" value="登 陆"/>
+                </div>
+            </from>
+        </div>
+    </div>
+
+    <script src="../../js/jquery.min.js"></script>
+    <script src="../../js/login/login.js"></script>
+</body>
+</html>
+[2016-04-17 17:47:40.423] [INFO] console - <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../../css/public/common.css">
+    <link rel="stylesheet" href="../../css/login/login.css">
+    <title>我只是一个登陆界面</title>
+</head>
+<body>
+    <div class="login_bg pr">
+        <div class="div_k">
+            <h1 class="fs_50"> <span class="c_FDE101">WITH</span> <span class="c_white">运营后台管理系统</span></h1>
+            <from method="post">
+                <input id="login_name" class="login_text" placeholder="用户名" type="text"/><br/>
+                <input id="password" class="login_password" placeholder="*********" type="password"/><br/>
+                <span id="message" class="c_emphasize pa" style="right:30%;"></span>
+                <div class="d_y">
+                     <input id="login_btn" class="login_btn" type="button" value="登 陆"/>
+                </div>
+            </from>
+        </div>
+    </div>
+
+    <script src="../../js/jquery.min.js"></script>
+    <script src="../../js/login/login.js"></script>
+</body>
+</html>
+[2016-04-17 17:48:22.435] [INFO] console - <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../../css/public/common.css">
+    <link rel="stylesheet" href="../../css/login/login.css">
+    <title>我只是一个登陆界面</title>
+</head>
+<body>
+    <div class="login_bg pr">
+        <div class="div_k">
+            <h1 class="fs_50"> <span class="c_FDE101">WITH</span> <span class="c_white">运营后台管理系统</span></h1>
+            <from method="post">
+                <input id="login_name" class="login_text" placeholder="用户名" type="text"/><br/>
+                <input id="password" class="login_password" placeholder="*********" type="password"/><br/>
+                <span id="message" class="c_emphasize pa" style="right:30%;"></span>
+                <div class="d_y">
+                     <input id="login_btn" class="login_btn" type="button" value="登 陆"/>
+                </div>
+            </from>
+        </div>
+    </div>
+
+    <script src="../../js/jquery.min.js"></script>
+    <script src="../../js/login/login.js"></script>
+</body>
+</html>
+[2016-04-17 17:48:26.582] [INFO] console - <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../../css/public/common.css">
+    <link rel="stylesheet" href="../../css/login/login.css">
+    <title>我只是一个登陆界面</title>
+</head>
+<body>
+    <div class="login_bg pr">
+        <div class="div_k">
+            <h1 class="fs_50"> <span class="c_FDE101">WITH</span> <span class="c_white">运营后台管理系统</span></h1>
+            <from method="post">
+                <input id="login_name" class="login_text" placeholder="用户名" type="text"/><br/>
+                <input id="password" class="login_password" placeholder="*********" type="password"/><br/>
+                <span id="message" class="c_emphasize pa" style="right:30%;"></span>
+                <div class="d_y">
+                     <input id="login_btn" class="login_btn" type="button" value="登 陆"/>
+                </div>
+            </from>
+        </div>
+    </div>
+
+    <script src="../../js/jquery.min.js"></script>
+    <script src="../../js/login/login.js"></script>
+</body>
+</html>
+[2016-04-17 17:48:38.883] [INFO] console - ckey server is running 80
+[2016-04-17 17:48:43.362] [INFO] console - <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../../css/public/common.css">
+    <link rel="stylesheet" href="../../css/login/login.css">
+    <title>我只是一个登陆界面</title>
+</head>
+<body>
+    <div class="login_bg pr">
+        <div class="div_k">
+            <h1 class="fs_50"> <span class="c_FDE101">WITH</span> <span class="c_white">运营后台管理系统</span></h1>
+            <from method="post">
+                <input id="login_name" class="login_text" placeholder="用户名" type="text"/><br/>
+                <input id="password" class="login_password" placeholder="*********" type="password"/><br/>
+                <span id="message" class="c_emphasize pa" style="right:30%;"></span>
+                <div class="d_y">
+                     <input id="login_btn" class="login_btn" type="button" value="登 陆"/>
+                </div>
+            </from>
+        </div>
+    </div>
+
+    <script src="../../js/jquery.min.js"></script>
+    <script src="../../js/login/login.js"></script>
+</body>
+</html>
+[2016-04-17 17:50:00.211] [INFO] console - ckey server is running 80
+[2016-04-17 17:50:04.037] [ERROR] console - Error: Cannot find module 'html'
+    at Function.Module._resolveFilename (module.js:325:15)
+    at Function.Module._load (module.js:276:25)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at new View (D:\myproject\spore_adminserver\node_modules\express\lib\view.js:78:30)
+    at EventEmitter.render (D:\myproject\spore_adminserver\node_modules\express\lib\application.js:569:12)
+    at ServerResponse.render (D:\myproject\spore_adminserver\node_modules\express\lib\response.js:961:7)
+    at Object.exports.login (D:\myproject\spore_adminserver\controllers\userservice.js:12:9)
+    at D:\myproject\spore_adminserver\route\routes.js:9:17
+    at Layer.handle [as handle_request] (D:\myproject\spore_adminserver\node_modules\express\lib\router\layer.js:95:5)
+[2016-04-17 17:50:23.250] [INFO] console - ckey server is running 80

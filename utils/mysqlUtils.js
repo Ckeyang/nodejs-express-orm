@@ -1,8 +1,12 @@
 /**
  * Created by Administrator on 2016/4/15.
  */
-var Sequelize=require('sequelize');
-var config=require('../config/config.js');
-var sequelize=new Sequelize(config.database,config.user,config.password,{host:config.host,port:config.dbport,dialect:config.db});
-
-exports.sequelize=sequelize;
+var orm = require('orm');
+var config = require('../config/config');
+module.exports.conn = function(){
+    var db=orm.connect(config.dbbase)
+    db.on('connect', function (err) {
+        if (err) throw err;
+    });
+    return db;
+};

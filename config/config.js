@@ -14,3 +14,4 @@ exports.password='123456';
 exports.host="http://127.0.0.1";
 exports.dbport="3306";
 exports.db="mysql";
+exports.dbbase="mysql://root:123456@localhost/spore";
