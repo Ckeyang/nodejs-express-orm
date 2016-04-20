@@ -1,4 +1,51 @@
 {
   "name": "spore_adminserver",
-  "version": "0.0.1"
+  "version": "0.0.2",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-concurrent": "~0.4.0",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-uglify": "~0.2.2",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-nodemon": "~0.1.1",
+    "marked": "~0.2.9"
+  },
+  "scripts": {
+    "start": "grunt dev"
+  },
+  "description": "",
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "connect-redis": "^3.0.2",
+    "cookie-parser": "^1.4.1",
+    "crypto": "^0.0.3",
+    "debug": "^2.2.0",
+    "ejs": "^2.4.1",
+    "express": "^4.13.4",
+    "express-session": "^1.13.0",
+    "log4js": "^0.6.35",
+    "morgan": "^1.7.0",
+    "mysql": "^2.10.2",
+    "multer": "^1.1.0",
+    "node": "^0.0.0",
+    "orm": "^2.1.30",
+    "serve-favicon": "^2.3.0",
+    "sequelize": "^3.21.0",
+    "session": "^0.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ckeyang/nodejs-express-orm.git"
+  },
+  "keywords": [
+    "q7021258"
+  ],
+  "author": "ckeyang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ckeyang/nodejs-express-orm/issues"
+  },
+  "homepage": "https://github.com/Ckeyang/nodejs-express-orm#readme"
 }

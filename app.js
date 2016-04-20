@@ -1,22 +1,25 @@
 /**
  * Created by Administrator on 2016/4/15.
  */
-var express = require('express');  //express 框架
+var express = require('express');  //express 妗嗘灦
 var path = require('path');
 var favicon = require('serve-favicon');
-var ejs=require('ejs');
+var ejs = require('ejs');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
+var session = require('express-session');
+var sessionStore = new session.MemoryStore({reapInterval: 300 * 1000});
+var RedisStore = require('connect-redis')(session);
 var bodyParser = require('body-parser');
 var routes = require('./route/routes');
 var app = express();
-app.use('*',function (req, res, next) {
+app.use('*', function (req, res, next) {
     res.setHeader('Access-Control-Allow-Origin', '*');
     res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Content-Length, Authorization, Accept, X-Requested-With , yourHeaderFeild');
     res.setHeader('Access-Control-Allow-Methods', 'PUT, POST, GET, DELETE, OPTIONS');
 
     if (req.method == 'OPTIONS') {
-        res.send(200); /让options请求快速返回/
+        res.send(200);
     }
     else {
         next();
@@ -26,21 +29,44 @@ app.use(bodyParser.json());
 
 app.use(bodyParser.urlencoded({extended: false}));
 
-app.use(cookieParser());
+app.use(cookieParser('test'));
 
+app.use(session({
+    store: sessionStore,
+    secret: 'ckey',
+    cookie: {maxAge: 300 * 1000},
+    rolling: true,
+    resave: true,
+    saveUninitialized: true
+}));
+app.use(function (req, res, next) {
+    var isfirst = req.session.isfirst;
+    var islogin = req.session.islogin;
+    if (typeof islogin != 'undefined' || isfirst == 1) {
+        next();
+    } else {
+        req.session.isfirst = 1;
+        res.redirect('/');
+    }
+
+});
 app.use(express.static(path.join(__dirname, 'public')));
 
-var BASE_TEMPLATE_DIR ="D://myproject/adminserver_html";
+var BASE_TEMPLATE_DIR = "D://myproject/spore_adminclient/template/html";
+
 app.use(bodyParser.urlencoded({
     extended: true
 }));
+app.engine('html', require('ejs').renderFile);
 app.use(bodyParser.json());
-app.set('view engine', ejs);
-app.set('html',BASE_TEMPLATE_DIR + '/html');
+app.set('view engine', 'ejs');
+app.set('views', BASE_TEMPLATE_DIR);
 app.use('/', routes);
+app.use(function (req, res, next) {
+    res.status(404).render('404.html', {message: 'localhost:1234'});
+});
 
-
-//日志
+//鏃ュ織
 var log4js = require('log4js');
 log4js.configure('config/log4js.json');
 global.logger = log4js.getLogger();
