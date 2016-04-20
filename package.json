@@ -39,9 +39,6 @@
     "type": "git",
     "url": "git+https://github.com/Ckeyang/nodejs-express-orm.git"
   },
-  "keywords": [
-    "q7021258"
-  ],
   "author": "ckeyang",
   "license": "ISC",
   "bugs": {
