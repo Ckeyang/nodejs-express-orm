@@ -4,7 +4,7 @@
   },
   {
     "type": "dateFile",
-    "filename": "./logs/ckey/date.log",
+    "filename": "./logs/date.log",
     "pattern": "-yyyy-MM-dd"
   }
 ],"replaceConsole": true

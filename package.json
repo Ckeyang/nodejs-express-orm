@@ -4,15 +4,24 @@
   "devDependencies": {
     "grunt": "~0.4.2",
     "grunt-concurrent": "~0.4.0",
+    "grunt-contrib-clean": "~0.5.0",
     "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-jshint": "~0.6.4",
     "grunt-contrib-uglify": "~0.2.2",
     "grunt-contrib-watch": "~0.5.3",
     "grunt-nodemon": "~0.1.1",
-    "marked": "~0.2.9"
+    "grunt-replace": "latest",
+    "load-grunt-tasks": "~0.3.0",
+    "marked": "~0.2.9",
+    "mocha": "^2.5.3",
+    "should": "^9.0.2",
+    "supertest": "^1.2.0",
+    "time-grunt": "~0.2.9"
   },
   "scripts": {
-    "start": "grunt dev"
+    "start": "pm2 start server.js",
+    "stop": "pm2 stop server.js"
   },
   "description": "",
   "main": "Gruntfile.js",
@@ -26,23 +35,28 @@
     "express": "^4.13.4",
     "express-session": "^1.13.0",
     "log4js": "^0.6.35",
+    "mkdirp": "^0.5.1",
     "morgan": "^1.7.0",
-    "mysql": "^2.10.2",
     "multer": "^1.1.0",
+    "multiparty": "^4.1.2",
+    "mysql": "^2.10.2",
     "node": "^0.0.0",
+    "node-schedule": "^1.1.0",
     "orm": "^2.1.30",
-    "serve-favicon": "^2.3.0",
+    "request": "^2.72.0",
     "sequelize": "^3.21.0",
-    "session": "^0.1.0"
+    "serve-favicon": "^2.3.0",
+    "session": "^0.1.0",
+    "util": "^0.10.3"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ckeyang/nodejs-express-orm.git"
+    "url": "git@192.168.0.3:scm/spore_adminserver.git"
   },
   "author": "ckeyang",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Ckeyang/nodejs-express-orm/issues"
+    "url": "git@192.168.0.3:scm/spore_adminserver"
   },
-  "homepage": "https://github.com/Ckeyang/nodejs-express-orm#readme"
+  "homepage": "git@192.168.0.3:scm/spore_adminserver#readme"
 }

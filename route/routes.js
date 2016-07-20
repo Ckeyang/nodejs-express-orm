@@ -1,53 +1,44 @@
 /**
- * Created by Administrator on 2016/4/15.
+ * Created by ckey on 2016/6/1.
  */
 var express = require('express');
 var router = express.Router();
-var userService = require('../controllers/userservice');
+var jumpController = require('../controllers/jumpController');
+var adminController = require('../controllers/adminUserController');
+var adminTagController = require('../controllers/adminTagController');
+var imageController=require('../controllers/imageController');
 /**
- * Ĭ�ϵ�ַ
+ *跳转操作
  */
-router.get('/', function (req, res, next) {
-    userService.login(req, res, next);
-});
+router.get('/logout', jumpController.logout);
+router.get('/', jumpController.login);
+router.get('/index', jumpController.index);
+router.get('/collocation', jumpController.collocation);
+router.get('/material', jumpController.material);
 /**
- * ��½
+ * AdminUser 操作
  */
-router.post('/onlogin.json', function (req, res, next) {
-    userService.onLogin(req, res, next);
-});
-
-router.get('/index',function(req,res,next){
-    var user=req.session.user;
-    res.render('index.html',{user:user,message:'localhost:1234'});
-});
+router.post('/onlogin.json', adminController.onLogin);
+router.post('/addAdminUser.json',adminController.addAdminUser);
 /**
- * ����û�
+ * AdminTag 操作
  */
-router.post('/addUser', function (req, res, next) {
-    userService.addUser(req, res, next);
-});
+router.post('/getlevel2tag.json', adminTagController.searchLevel2Tag);
+router.post('/deletelevel2tag.json', adminTagController.deleteLevel2Tag);
+router.post('/deletelevel1tag.json', adminTagController.deleteLevel1Tag);
+router.post('/updatelevel1tag.json', adminTagController.updateLevel1Tag);
+router.post('/searchLevel1Tag.json',adminTagController.searchLevel1Tag);
+router.post('/addLevel1Tag.json',adminTagController.addLevel1Tag);
+router.post('/addLevel2Tag.json',adminTagController.addLevel2Tag);
+router.post('/setLevel1bar.json',adminTagController.setLevel1bar);
+router.post('/updateLevel1SX.json',adminTagController.updateLevel1SX);
+router.post('/uploadTagPics.json',adminTagController.uploadTagPics);
+router.post('/enableTag.json',adminTagController.enableTag);
+router.post('/getStartTags.json',adminTagController.getStartTags);
+router.post('/searchpx.json',adminTagController.searchpx);
 /**
- * ��ȡȫ���û�
+ *获取图片
  */
-router.post('/getAllUser.json', function (req, res, next) {
-    userService.getAllUser(req, res, next);
-});
-
-router.post('/getUserByPage.json',function(req,res,next){
-    userService.getUserByPage(req,res,next);
-});
-/**
- * ɾ���û�
- */
-router.post("/deleteUser", function (req, res, next) {
-    userService.deleteUser(req, res, next);
-});
-/**
- * �޸��û���Ϣ
- */
-router.post("/updateUser", function (req, res, next) {
-    userService.updateUser(req, res, next);
-});
-
+router.get('*.png', imageController.getImage);
+router.get('*.jpg', imageController.getImage2);
 module.exports = router;
