@@ -15,4 +15,3 @@ exports.superpass="123456";
 exports.dbadminbase = "mysql://root:123456@localhost/closet_diary_admin";
 exports.baseDir = "D://myproject/closetdiary_adminhtml/build/template";
 exports.apiKey = 'for_test_hhhhhh';
-//exports.appImg="http://uploadgamma.weicitech.com/";
